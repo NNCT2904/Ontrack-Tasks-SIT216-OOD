@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{F1D4319C-83BA-4BFD-B8CA-0BF550710D6B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Repetition/Repetition.cs">
+    <Files>
+      <File FileName="Repetition/Repetition.cs" Line="84" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Repetition" expanded="True">
+            <Node name="Repetition" expanded="True">
+              <Node name="Repetition.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Repetition PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

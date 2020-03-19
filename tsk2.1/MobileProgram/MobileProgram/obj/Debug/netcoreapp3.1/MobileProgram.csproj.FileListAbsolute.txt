@@ -1,0 +1,11 @@
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\MobileProgram\MobileProgram\bin\Debug\netcoreapp3.1\MobileProgram.exe
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\MobileProgram\MobileProgram\bin\Debug\netcoreapp3.1\MobileProgram.deps.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\MobileProgram\MobileProgram\bin\Debug\netcoreapp3.1\MobileProgram.runtimeconfig.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\MobileProgram\MobileProgram\bin\Debug\netcoreapp3.1\MobileProgram.runtimeconfig.dev.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\MobileProgram\MobileProgram\bin\Debug\netcoreapp3.1\MobileProgram.dll
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\MobileProgram\MobileProgram\bin\Debug\netcoreapp3.1\MobileProgram.pdb
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\MobileProgram\MobileProgram\obj\Debug\netcoreapp3.1\MobileProgram.csprojAssemblyReference.cache
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\MobileProgram\MobileProgram\obj\Debug\netcoreapp3.1\MobileProgram.AssemblyInfoInputs.cache
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\MobileProgram\MobileProgram\obj\Debug\netcoreapp3.1\MobileProgram.AssemblyInfo.cs
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\MobileProgram\MobileProgram\obj\Debug\netcoreapp3.1\MobileProgram.dll
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\MobileProgram\MobileProgram\obj\Debug\netcoreapp3.1\MobileProgram.pdb

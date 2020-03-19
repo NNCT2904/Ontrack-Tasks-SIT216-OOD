@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{DDF8EC22-7DCB-4C8E-8110-CBAC14A442A4}|Default">
+  <MonoDevelop.Ide.ItemProperties.tsk1.1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="tsk1.1/IfStatement.cs">
+    <Files>
+      <File FileName="tsk1.1/IfStatement.cs" Line="26" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="tsk1.1" expanded="True">
+            <Node name="tsk1.1" expanded="True">
+              <Node name="IfStatement.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

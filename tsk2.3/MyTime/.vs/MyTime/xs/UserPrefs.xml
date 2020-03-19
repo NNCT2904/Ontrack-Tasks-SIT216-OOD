@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{D54B2408-3203-4105-A410-0B22B1487396}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyTime PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyTime/MyTime.cs">
+    <Files>
+      <File FileName="MyTime/MyTime.cs" Line="17" Column="42" />
+      <File FileName="MyTime/TestMyTIme.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyTime" expanded="True">
+            <Node name="MyTime" expanded="True">
+              <Node name="MyTime.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

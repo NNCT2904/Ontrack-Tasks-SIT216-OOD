@@ -1,0 +1,11 @@
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\CarProgram\CarProgram\obj\Debug\netcoreapp3.1\CarProgram.csprojAssemblyReference.cache
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\CarProgram\CarProgram\obj\Debug\netcoreapp3.1\CarProgram.AssemblyInfoInputs.cache
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\CarProgram\CarProgram\obj\Debug\netcoreapp3.1\CarProgram.AssemblyInfo.cs
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\CarProgram\CarProgram\bin\Debug\netcoreapp3.1\CarProgram.exe
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\CarProgram\CarProgram\bin\Debug\netcoreapp3.1\CarProgram.deps.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\CarProgram\CarProgram\bin\Debug\netcoreapp3.1\CarProgram.runtimeconfig.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\CarProgram\CarProgram\bin\Debug\netcoreapp3.1\CarProgram.runtimeconfig.dev.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\CarProgram\CarProgram\bin\Debug\netcoreapp3.1\CarProgram.dll
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\CarProgram\CarProgram\bin\Debug\netcoreapp3.1\CarProgram.pdb
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\CarProgram\CarProgram\obj\Debug\netcoreapp3.1\CarProgram.dll
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk2.1\CarProgram\CarProgram\obj\Debug\netcoreapp3.1\CarProgram.pdb

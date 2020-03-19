@@ -1,0 +1,10 @@
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\6\DoCasting\DoCasting\bin\Debug\netcoreapp3.1\DoCasting.exe
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\6\DoCasting\DoCasting\bin\Debug\netcoreapp3.1\DoCasting.deps.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\6\DoCasting\DoCasting\bin\Debug\netcoreapp3.1\DoCasting.runtimeconfig.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\6\DoCasting\DoCasting\bin\Debug\netcoreapp3.1\DoCasting.runtimeconfig.dev.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\6\DoCasting\DoCasting\bin\Debug\netcoreapp3.1\DoCasting.dll
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\6\DoCasting\DoCasting\bin\Debug\netcoreapp3.1\DoCasting.pdb
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\6\DoCasting\DoCasting\obj\Debug\netcoreapp3.1\DoCasting.AssemblyInfoInputs.cache
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\6\DoCasting\DoCasting\obj\Debug\netcoreapp3.1\DoCasting.AssemblyInfo.cs
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\6\DoCasting\DoCasting\obj\Debug\netcoreapp3.1\DoCasting.dll
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\6\DoCasting\DoCasting\obj\Debug\netcoreapp3.1\DoCasting.pdb

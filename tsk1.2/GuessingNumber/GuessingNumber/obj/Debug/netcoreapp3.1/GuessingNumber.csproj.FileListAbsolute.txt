@@ -1,0 +1,11 @@
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\GuessingNumber\GuessingNumber\bin\Debug\netcoreapp3.1\GuessingNumber.exe
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\GuessingNumber\GuessingNumber\bin\Debug\netcoreapp3.1\GuessingNumber.deps.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\GuessingNumber\GuessingNumber\bin\Debug\netcoreapp3.1\GuessingNumber.runtimeconfig.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\GuessingNumber\GuessingNumber\bin\Debug\netcoreapp3.1\GuessingNumber.runtimeconfig.dev.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\GuessingNumber\GuessingNumber\bin\Debug\netcoreapp3.1\GuessingNumber.dll
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\GuessingNumber\GuessingNumber\bin\Debug\netcoreapp3.1\GuessingNumber.pdb
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\GuessingNumber\GuessingNumber\obj\Debug\netcoreapp3.1\GuessingNumber.csprojAssemblyReference.cache
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\GuessingNumber\GuessingNumber\obj\Debug\netcoreapp3.1\GuessingNumber.AssemblyInfoInputs.cache
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\GuessingNumber\GuessingNumber\obj\Debug\netcoreapp3.1\GuessingNumber.AssemblyInfo.cs
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\GuessingNumber\GuessingNumber\obj\Debug\netcoreapp3.1\GuessingNumber.dll
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\GuessingNumber\GuessingNumber\obj\Debug\netcoreapp3.1\GuessingNumber.pdb

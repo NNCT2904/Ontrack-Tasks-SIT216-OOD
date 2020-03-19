@@ -1,0 +1,11 @@
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\5\Microwave\Microwave\obj\Debug\netcoreapp3.1\Microwave.csprojAssemblyReference.cache
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\5\Microwave\Microwave\obj\Debug\netcoreapp3.1\Microwave.AssemblyInfoInputs.cache
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\5\Microwave\Microwave\obj\Debug\netcoreapp3.1\Microwave.AssemblyInfo.cs
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\5\Microwave\Microwave\bin\Debug\netcoreapp3.1\Microwave.exe
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\5\Microwave\Microwave\bin\Debug\netcoreapp3.1\Microwave.deps.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\5\Microwave\Microwave\bin\Debug\netcoreapp3.1\Microwave.runtimeconfig.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\5\Microwave\Microwave\bin\Debug\netcoreapp3.1\Microwave.runtimeconfig.dev.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\5\Microwave\Microwave\bin\Debug\netcoreapp3.1\Microwave.dll
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\5\Microwave\Microwave\bin\Debug\netcoreapp3.1\Microwave.pdb
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\5\Microwave\Microwave\obj\Debug\netcoreapp3.1\Microwave.dll
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.1\5\Microwave\Microwave\obj\Debug\netcoreapp3.1\Microwave.pdb

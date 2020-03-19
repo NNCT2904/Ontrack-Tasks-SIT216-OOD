@@ -1,0 +1,10 @@
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.3/MyTime/MyTime/bin/Debug/netcoreapp3.1/MyTime.deps.json
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.3/MyTime/MyTime/bin/Debug/netcoreapp3.1/MyTime.runtimeconfig.json
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.3/MyTime/MyTime/bin/Debug/netcoreapp3.1/MyTime.runtimeconfig.dev.json
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.3/MyTime/MyTime/bin/Debug/netcoreapp3.1/MyTime.dll
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.3/MyTime/MyTime/bin/Debug/netcoreapp3.1/MyTime.pdb
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.3/MyTime/MyTime/obj/Debug/netcoreapp3.1/MyTime.csprojAssemblyReference.cache
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.3/MyTime/MyTime/obj/Debug/netcoreapp3.1/MyTime.AssemblyInfoInputs.cache
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.3/MyTime/MyTime/obj/Debug/netcoreapp3.1/MyTime.AssemblyInfo.cs
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.3/MyTime/MyTime/obj/Debug/netcoreapp3.1/MyTime.dll
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.3/MyTime/MyTime/obj/Debug/netcoreapp3.1/MyTime.pdb

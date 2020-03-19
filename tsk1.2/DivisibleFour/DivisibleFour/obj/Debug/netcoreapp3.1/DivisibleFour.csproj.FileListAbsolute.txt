@@ -1,0 +1,11 @@
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\DivisibleFour\DivisibleFour\bin\Debug\netcoreapp3.1\DivisibleFour.exe
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\DivisibleFour\DivisibleFour\bin\Debug\netcoreapp3.1\DivisibleFour.deps.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\DivisibleFour\DivisibleFour\bin\Debug\netcoreapp3.1\DivisibleFour.runtimeconfig.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\DivisibleFour\DivisibleFour\bin\Debug\netcoreapp3.1\DivisibleFour.runtimeconfig.dev.json
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\DivisibleFour\DivisibleFour\bin\Debug\netcoreapp3.1\DivisibleFour.dll
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\DivisibleFour\DivisibleFour\bin\Debug\netcoreapp3.1\DivisibleFour.pdb
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\DivisibleFour\DivisibleFour\obj\Debug\netcoreapp3.1\DivisibleFour.AssemblyInfoInputs.cache
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\DivisibleFour\DivisibleFour\obj\Debug\netcoreapp3.1\DivisibleFour.AssemblyInfo.cs
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\DivisibleFour\DivisibleFour\obj\Debug\netcoreapp3.1\DivisibleFour.dll
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\DivisibleFour\DivisibleFour\obj\Debug\netcoreapp3.1\DivisibleFour.pdb
+C:\Users\nnct2\OneDrive\Documents\DEAKIN\2020\T1\OOD\tsk1.2\DivisibleFour\DivisibleFour\obj\Debug\netcoreapp3.1\DivisibleFour.csprojAssemblyReference.cache

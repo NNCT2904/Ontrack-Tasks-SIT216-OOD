@@ -1,0 +1,10 @@
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.2/Account/Account/bin/Debug/netcoreapp3.1/Account.deps.json
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.2/Account/Account/bin/Debug/netcoreapp3.1/Account.runtimeconfig.json
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.2/Account/Account/bin/Debug/netcoreapp3.1/Account.runtimeconfig.dev.json
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.2/Account/Account/bin/Debug/netcoreapp3.1/Account.dll
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.2/Account/Account/bin/Debug/netcoreapp3.1/Account.pdb
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.2/Account/Account/obj/Debug/netcoreapp3.1/Account.csprojAssemblyReference.cache
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.2/Account/Account/obj/Debug/netcoreapp3.1/Account.AssemblyInfoInputs.cache
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.2/Account/Account/obj/Debug/netcoreapp3.1/Account.AssemblyInfo.cs
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.2/Account/Account/obj/Debug/netcoreapp3.1/Account.dll
+/Users/thanhnguyen/OneDrive/Documents/DEAKIN/2020/T1/OOD/tsk2.2/Account/Account/obj/Debug/netcoreapp3.1/Account.pdb
