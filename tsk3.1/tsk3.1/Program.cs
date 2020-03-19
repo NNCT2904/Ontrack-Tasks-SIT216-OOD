@@ -126,7 +126,7 @@ namespace tsk3._1
             //}
 
 
-            
+
             //List<String> myStudentList = new List<string>();
             //Random randomValue = new Random();
             //int randomNumber = randomValue.Next(1, 12);
@@ -142,15 +142,17 @@ namespace tsk3._1
             //{
             //    Console.WriteLine(myStudentList[i]);
             //}
-            
+
 
 
             //7
 
-            int[] testArray = { 10, 12, 44, 13, 15 };
-            FuncOne(testArray);
+            int[] test1DArray = { 10, 12, 44, 13, 15 };
+            Console.WriteLine("Fuction 1: ");
+            FuncOne(test1DArray);
 
             List<double> testList = new List<double> { 12, 432, 123, 72, 1, 0, 456 };
+            Console.WriteLine("Fuction 2: ");
             FuncTwo(testList);
 
             int[,] test2dArray = new int[3, 4]
@@ -159,9 +161,12 @@ namespace tsk3._1
                 {1, 12, 2, 1 },
                 {2, 4, 0, -9 }
             };
+
+            Console.WriteLine("Fuction 3: ");
             FucThree(test2dArray);
 
-
+            Console.WriteLine("Fuction 4: ");
+            FuncFour(test1DArray);
 
             Console.ReadLine();
         }
@@ -223,7 +228,30 @@ namespace tsk3._1
             }
             for (int i =0; i<testArray.Length; i++)
             {
-                Console.WriteLine(testArray[i]);
+                Console.Write(testArray[i] +"\t");
+            }
+            Console.WriteLine();
+        }
+
+        public static void FuncFour(int[] inputArray)
+        {
+            int[,] multipleTable = new int[inputArray.Length,9];
+            for (int i = 0; i < multipleTable.GetLength(0); i++)
+            {
+                for (int j = 0; j < multipleTable.GetLength(1); j++)
+                {
+                    multipleTable[i, j] = inputArray[i]*j;                    
+                }
+                
+            }
+
+            for (int i =0; i < multipleTable.GetLength(0); i++)
+            {
+                for (int j = 0; j < multipleTable.GetLength(1); j++)
+                {
+                    Console.Write(multipleTable[i, j] + "\t");
+                }
+                Console.WriteLine();
             }
         }
 
