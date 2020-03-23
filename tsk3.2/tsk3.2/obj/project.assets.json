@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\good things\\Ontrack-Tasks\\tsk2.1\\CarProgram\\CarProgram\\CarProgram.csproj",
-      "projectName": "CarProgram",
-      "projectPath": "D:\\good things\\Ontrack-Tasks\\tsk2.1\\CarProgram\\CarProgram\\CarProgram.csproj",
+      "projectUniqueName": "D:\\good things\\Ontrack-Tasks\\tsk3.2\\tsk3.2\\tsk3.2.csproj",
+      "projectName": "tsk3.2",
+      "projectPath": "D:\\good things\\Ontrack-Tasks\\tsk3.2\\tsk3.2\\tsk3.2.csproj",
       "packagesPath": "C:\\Users\\nnct2\\.nuget\\packages\\",
-      "outputPath": "D:\\good things\\Ontrack-Tasks\\tsk2.1\\CarProgram\\CarProgram\\obj\\",
+      "outputPath": "D:\\good things\\Ontrack-Tasks\\tsk3.2\\tsk3.2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nnct2\\AppData\\Roaming\\NuGet\\NuGet.Config",

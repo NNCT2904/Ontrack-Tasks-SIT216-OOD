@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nnct2\\OneDrive\\Documents\\DEAKIN\\2020\\T1\\OOD\\tsk2.1\\CarProgram\\CarProgram\\CarProgram.csproj": {}
+    "D:\\good things\\Ontrack-Tasks\\tsk2.1\\CarProgram\\CarProgram\\CarProgram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nnct2\\OneDrive\\Documents\\DEAKIN\\2020\\T1\\OOD\\tsk2.1\\CarProgram\\CarProgram\\CarProgram.csproj": {
+    "D:\\good things\\Ontrack-Tasks\\tsk2.1\\CarProgram\\CarProgram\\CarProgram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nnct2\\OneDrive\\Documents\\DEAKIN\\2020\\T1\\OOD\\tsk2.1\\CarProgram\\CarProgram\\CarProgram.csproj",
+        "projectUniqueName": "D:\\good things\\Ontrack-Tasks\\tsk2.1\\CarProgram\\CarProgram\\CarProgram.csproj",
         "projectName": "CarProgram",
-        "projectPath": "C:\\Users\\nnct2\\OneDrive\\Documents\\DEAKIN\\2020\\T1\\OOD\\tsk2.1\\CarProgram\\CarProgram\\CarProgram.csproj",
+        "projectPath": "D:\\good things\\Ontrack-Tasks\\tsk2.1\\CarProgram\\CarProgram\\CarProgram.csproj",
         "packagesPath": "C:\\Users\\nnct2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nnct2\\OneDrive\\Documents\\DEAKIN\\2020\\T1\\OOD\\tsk2.1\\CarProgram\\CarProgram\\obj\\",
+        "outputPath": "D:\\good things\\Ontrack-Tasks\\tsk2.1\\CarProgram\\CarProgram\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nnct2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
