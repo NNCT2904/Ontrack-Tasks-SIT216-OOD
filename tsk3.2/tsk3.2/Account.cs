@@ -13,14 +13,36 @@ namespace Account
 
 
         //Mutator methods
-        public void Deposit(decimal Ammount)
+        public bool Deposit(decimal Ammount)
         {
-            this._balance += Ammount;
+            bool deposited = false;
+            if (Ammount < 0)
+            {
+                Console.WriteLine("The deposit ammount must not be negative");
+                deposited = false;
+            }
+            else if (Ammount >= 0)
+            {
+                this._balance += Ammount;
+                deposited = true;
+            }
+            return deposited;
         }
 
-        public void Withdraw(decimal Ammount)
+        public bool Withdraw(decimal Ammount)
         {
-            this._balance -= Ammount;
+            bool withdraw = false;
+            if (Ammount < 0)
+            {
+                Console.WriteLine("The deposit ammount must not be negative");
+                withdraw = false;
+            }
+            else if (Ammount >= 0)
+            {
+                this._balance -= Ammount;
+                withdraw = true;
+            }
+            return withdraw;
         }
 
         //Accessor methods
