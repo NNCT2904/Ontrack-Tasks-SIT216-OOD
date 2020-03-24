@@ -55,5 +55,9 @@ namespace Account
         {
             return this._name;
         }
+        public Decimal Balance()
+        {
+            return this._balance;
+        }
     }
 }

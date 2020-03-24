@@ -2,10 +2,10 @@
 
 public enum MenuOptions
 {
-    Deposit     = 1,
-    Withdraw    = 2,
-    Print       = 3,
-    Quit        = 4
+    Deposit =   1,
+    Withdraw =  2,
+    Print =     3,
+    Quit =      4
 
 }
 
@@ -17,45 +17,44 @@ namespace Account
         static void Main(string[] args)
         {
             Account ncng = new Account("Thanh Nguyen", 99235);
-            ncng.Deposit(200);
-            ncng.Withdraw(10);
-            ncng.Print();
+            
+            //print out the UI
             MenuOptions option = ReadUserInput();
 
 
-            
             switch (option)
             {
                 case MenuOptions.Deposit:
                     {
-                        Console.WriteLine(Convert.ToString(option)); ;
+                        Console.WriteLine(Convert.ToString(option));
+                        DoDeposit(ncng);
                         break;
                     }
                 case MenuOptions.Withdraw:
                     {
-                        Console.WriteLine(Convert.ToString(option)); ;
+                        Console.WriteLine(Convert.ToString(option));
+                        DoWithdraw(ncng);
                         break;
                     }
                 case MenuOptions.Print:
                     {
-                        Console.WriteLine(Convert.ToString(option)); ;
+                        Console.WriteLine(Convert.ToString(option));
+                        DoPrint(ncng);
                         break;
                     }
                 case MenuOptions.Quit:
                     {
-                        Console.WriteLine(Convert.ToString(option)); ;
+                        Console.WriteLine(Convert.ToString(option));
                         break;
                     }
             }
-            
-            Console.ReadLine();
         }
         static MenuOptions ReadUserInput()
         {
             int userInput;
             //MenuOptions options = MenuOptions.Deposit;
 
-            
+
 
 
             Console.WriteLine("Bank System Options");
@@ -66,18 +65,18 @@ namespace Account
 
             do
             {
-                userInput = InputToInt(Console.ReadLine()); 
-                if (userInput <=0 || userInput >=4)
+                userInput = InputToInt(Console.ReadLine());
+                if (userInput <= 0 || userInput >= 4)
                 {
                     Console.WriteLine("Unknown option, try again!");
                 }
-            } while (userInput<=0||userInput>=4);
+            } while (userInput <= 0 || userInput >= 4);
 
-            
-            return (MenuOptions)userInput;            
+
+            return (MenuOptions)userInput;
         }
 
-        // This function check the user input
+        // These function check the user input
         static int InputToInt(string inputNumberAsString)
         {
             int inputNumber;
@@ -87,7 +86,40 @@ namespace Account
                 inputNumberAsString = Console.ReadLine();
             }
             return inputNumber;
-            
+
+        }
+        static decimal InputToDec(string inputNumberAsString)
+        {
+            decimal inputNumber;
+            while (!decimal.TryParse(inputNumberAsString, out inputNumber))
+            {
+                Console.WriteLine("This is not quite a number");
+                inputNumberAsString = Console.ReadLine();
+            }
+            return inputNumber;
+
+        }
+
+        // Methodd
+        static void DoDeposit(Account account)
+        {
+            Console.WriteLine("Input ammount");
+            if (account.Deposit(InputToDec(Console.ReadLine())))
+            {
+                Console.WriteLine("Deposit sucessful, your new balance is " + account.Balance());
+            }
+        }
+        static void DoWithdraw(Account account)
+        {
+            Console.WriteLine("Input ammount");
+            if (account.Withdraw(InputToDec(Console.ReadLine())))
+            {
+                Console.WriteLine("Widthdraw sucessful, your new balance is " + account.Balance());
+            }
+        }
+        static void DoPrint(Account account)
+        {
+            account.Print();
         }
     }
 }
