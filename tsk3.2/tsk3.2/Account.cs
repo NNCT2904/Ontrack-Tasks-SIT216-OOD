@@ -11,53 +11,48 @@ namespace Account
             this._name = name;
         }
 
-
-        //Mutator methods
-        public bool Deposit(decimal Ammount)
-        {
-            bool deposited = false;
-            if (Ammount < 0)
-            {
-                Console.WriteLine("The deposit ammount must not be negative");
-                deposited = false;
-            }
-            else if (Ammount >= 0)
-            {
-                this._balance += Ammount;
-                deposited = true;
-            }
-            return deposited;
-        }
-
-        public bool Withdraw(decimal Ammount)
-        {
-            bool withdraw = false;
-            if (Ammount < 0)
-            {
-                Console.WriteLine("The deposit ammount must not be negative");
-                withdraw = false;
-            }
-            else if (Ammount >= 0)
-            {
-                this._balance -= Ammount;
-                withdraw = true;
-            }
-            return withdraw;
-        }
-
         //Accessor methods
         public void Print()
         {
             Console.WriteLine("Account name: " + this._name);
             Console.WriteLine("Available balance: " + this._balance);
         }
-        public String Name()
+        public String Name() => this._name;
+        public Decimal Balance() => this._balance;
+
+        //Mutator methods
+        public bool Deposit(decimal ammount)
         {
-            return this._name;
+            bool deposited = false;
+            if (ammount < 0)
+            {
+                Console.WriteLine("The deposit ammount must not be negative");
+                deposited = false;
+            }
+            else if (ammount >= 0)
+            {
+                this._balance += ammount;
+                deposited = true;
+            }
+            return deposited;
         }
-        public Decimal Balance()
+
+        public bool Withdraw(decimal ammount)
         {
-            return this._balance;
+            bool withdraw = false;
+            if (ammount < 0)
+            {
+                Console.WriteLine("The deposit ammount must not be negative");
+                withdraw = false;
+            }
+            else if (ammount >= 0)
+            {
+                this._balance -= ammount;
+                withdraw = true;
+            }
+            return withdraw;
         }
+
+        
     }
 }

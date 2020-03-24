@@ -52,17 +52,15 @@ namespace Account
         static MenuOptions ReadUserInput()
         {
             int userInput;
-            //MenuOptions options = MenuOptions.Deposit;
 
-
-
-
+            //Print out the menu options, add more options "MenuOptions" enum above will print more options
             Console.WriteLine("Bank System Options");
             foreach (MenuOptions choices in Enum.GetValues(typeof(MenuOptions)))
             {
                 Console.WriteLine("-{0}. {1}", (int)choices, choices);
             }
 
+            //User input validation, stricted to range (1-4)
             do
             {
                 userInput = InputToInt(Console.ReadLine());
@@ -72,7 +70,7 @@ namespace Account
                 }
             } while (userInput <= 0 || userInput >= 4);
 
-
+            //Return the option based on the user input, expected 1 to 4
             return (MenuOptions)userInput;
         }
 
