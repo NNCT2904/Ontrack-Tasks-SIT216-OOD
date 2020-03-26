@@ -1,13 +1,13 @@
-﻿<Properties StartupConfiguration="{2C9BDA0C-BA6D-4D73-905D-0B3C19368D88}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="tsk3.1/Program.cs">
+﻿<Properties StartupConfiguration="{ACC1696C-CC4B-46C1-9BAE-E3F0BE907034}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="tsk3.1/Program.cs" Line="169" Column="28" />
+      <File FileName="Program.cs" Line="15" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="tsk3.1" expanded="True">
-            <Node name="tsk3.1" expanded="True">
+          <Node name="1.1" expanded="True">
+            <Node name="1.1" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -15,11 +15,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.tsk3.1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.1.1 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
