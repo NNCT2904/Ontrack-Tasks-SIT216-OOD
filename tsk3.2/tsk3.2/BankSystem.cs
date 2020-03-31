@@ -59,6 +59,7 @@ namespace Account
             {
                 Console.WriteLine("-{0}. {1}", (int)choices, choices);
             }
+            Console.Write("Select one option: ");
 
             //User input validation, stricted to range (1-4)
             do
