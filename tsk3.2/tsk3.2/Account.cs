@@ -28,7 +28,7 @@ namespace Account
             {
                 Console.WriteLine("The deposit ammount must not be negative");
                 deposited = false;
-            }
+            }           
             else if (ammount >= 0)
             {
                 this._balance += ammount;
@@ -45,7 +45,11 @@ namespace Account
                 Console.WriteLine("The deposit ammount must not be negative");
                 withdraw = false;
             }
-            else if (ammount >= 0)
+            else if (ammount > this._balance)
+            {
+                Console.WriteLine("You can not withdraw more than your balance!");
+            }
+            else
             {
                 this._balance -= ammount;
                 withdraw = true;
