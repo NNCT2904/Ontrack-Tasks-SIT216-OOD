@@ -1,0 +1,12 @@
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/bin/Debug/netcoreapp3.1/tsk3.3.deps.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/bin/Debug/netcoreapp3.1/tsk3.3.runtimeconfig.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/bin/Debug/netcoreapp3.1/tsk3.3.runtimeconfig.dev.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/bin/Debug/netcoreapp3.1/tsk3.3.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/bin/Debug/netcoreapp3.1/tsk3.3.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/obj/Debug/netcoreapp3.1/tsk3.3.csprojAssemblyReference.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/obj/Debug/netcoreapp3.1/tsk3.3.csproj.CoreCompileInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/obj/Debug/netcoreapp3.1/tsk3.3.AssemblyInfoInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/obj/Debug/netcoreapp3.1/tsk3.3.AssemblyInfo.cs
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/obj/Debug/netcoreapp3.1/tsk3.3.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/obj/Debug/netcoreapp3.1/tsk3.3.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/obj/Debug/netcoreapp3.1/tsk3.3.genruntimeconfig.cache
