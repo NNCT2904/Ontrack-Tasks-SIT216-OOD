@@ -17,7 +17,7 @@ namespace tsk3._3
         public string ToString()
         {
             string result = "({0}*x^{1})";
-            result = string.Format(result, this._coeffs[this._coeffs.Length - 1], this._coeffs.Length);
+            result = string.Format(result, this._coeffs[this._coeffs.Length - 1], this._coeffs.Length -1);
             for (int i = (this._coeffs.Length - 2); i >= 0; i--)
             {
                 result = string.Concat(result, " + (" + this._coeffs[i] + "*x^" + (i) + ")");
@@ -65,7 +65,7 @@ namespace tsk3._3
             }
 
             string resultAnother = "({0}*x^{1})";
-            resultAnother = string.Format(resultAnother, result._coeffs[result._coeffs.Length - 1], result._coeffs.Length);
+            resultAnother = string.Format(resultAnother, result._coeffs[result._coeffs.Length - 1], result._coeffs.Length -1);
             for (int i = (result._coeffs.Length - 2); i >= 0; i--)
             {
                 resultAnother = string.Concat(resultAnother, " + (" + result._coeffs[i] + "*x^" + (i) + ")");
@@ -102,7 +102,7 @@ namespace tsk3._3
             }
 
             string resultAnother = "({0}*x^{1})";
-            resultAnother = string.Format(resultAnother, result._coeffs[result._coeffs.Length - 1], result._coeffs.Length);
+            resultAnother = string.Format(resultAnother, result._coeffs[result._coeffs.Length - 1], result._coeffs.Length -1);
             for (int i = (result._coeffs.Length - 2); i >= 0; i--)
             {
                 resultAnother = string.Concat(resultAnother, " + (" + result._coeffs[i] + "*x^" + (i) + ")");

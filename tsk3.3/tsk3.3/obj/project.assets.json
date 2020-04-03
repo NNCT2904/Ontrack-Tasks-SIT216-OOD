@@ -20,7 +20,7 @@
       "outputPath": "/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk3.3/tsk3.3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/thanhnguyen/.config/NuGet/NuGet.Config"
+        "/Users/thanhnguyen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

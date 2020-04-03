@@ -2,7 +2,7 @@
 
 namespace tsk3._3
 {
-    class Program
+    class DriverTest
     {
         static void Main(string[] args)
         {
