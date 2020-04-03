@@ -17,11 +17,23 @@ namespace Account
         static void Main(string[] args)
         {
             Account ncng = new Account("Thanh Nguyen", 99235);
+            Account q = new Account("q", 12);
+            Account w = new Account("w", 15);
+            Account e = new Account("e", 1);
+            Account r = new Account("r", 6);
+            Account t = new Account("t", 78);
+            Account y = new Account("y", 93);
+            Account u = new Account("u", 45);
+            Account i = new Account("i", 67);
+            Account o = new Account("o", 32);
+            Account p = new Account("p", 49);
 
+
+            Account[] accountList = { q, w, e, r, t, y, u, i, o, p };
+
+            AccountSorter.Sort(accountList, 9);
             //print out the UI
             MenuOptions option = ReadUserInput();
-
-
             switch (option)
             {
                 case MenuOptions.Deposit:

@@ -17,7 +17,9 @@ namespace Account
             Console.WriteLine("Account name: " + this._name);
             Console.WriteLine("Available balance: " + this._balance);
         }
+
         public String Name() => this._name;
+
         public Decimal Balance() => this._balance;
 
         //Mutator methods
