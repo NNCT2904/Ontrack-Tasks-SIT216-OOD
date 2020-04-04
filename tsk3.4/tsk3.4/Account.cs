@@ -5,6 +5,9 @@ namespace Account
     {
         private decimal _balance;
         private String _name;
+
+        public decimal Balance { get => _balance; }
+
         public Account(String name, decimal balance)
         {
             this._balance = balance;
@@ -20,7 +23,7 @@ namespace Account
 
         public String Name() => this._name;
 
-        public Decimal Balance() => this._balance;
+        public Decimal GetBalance => this._balance;
 
         //Mutator methods
         public bool Deposit(decimal ammount)

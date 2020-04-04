@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 public enum MenuOptions
 {
@@ -23,35 +24,44 @@ namespace Account
             Account r = new Account("r", 6);
             Account t = new Account("t", 78);
             Account y = new Account("y", 93);
-            Account u = new Account("u", 45);
+            Account u = new Account("u", 49);
             Account i = new Account("i", 67);
             Account o = new Account("o", 32);
-            Account p = new Account("p", 49);
+            Account p = new Account("p", 45);
 
+            List<Account> listAccount = new List<Account> { q, w, e, r, t, y, u, i, o, p };
+            Account[] arrayAccount = { q, w, e, r, t, y, u, i, o, p };
 
-            Account[] accountList = { q, w, e, r, t, y, u, i, o, p };
+            AccountSorter.Sort(listAccount, 10);
 
-            AccountSorter.Sort(accountList, 9);
-            //print out the UI
+            //print out the UI, not for this task
+            //UI(ncng);
+
+            Console.ReadLine();
+        }
+
+        static void UI(Account account)
+        {
+
             MenuOptions option = ReadUserInput();
             switch (option)
             {
                 case MenuOptions.Deposit:
                     {
                         Console.WriteLine(Convert.ToString(option));
-                        DoDeposit(ncng);
+                        DoDeposit(account);
                         break;
                     }
                 case MenuOptions.Withdraw:
                     {
                         Console.WriteLine(Convert.ToString(option));
-                        DoWithdraw(ncng);
+                        DoWithdraw(account);
                         break;
                     }
                 case MenuOptions.Print:
                     {
                         Console.WriteLine(Convert.ToString(option));
-                        DoPrint(ncng);
+                        DoPrint(account);
                         break;
                     }
                 case MenuOptions.Quit:
@@ -61,6 +71,7 @@ namespace Account
                     }
             }
         }
+
         static MenuOptions ReadUserInput()
         {
             int userInput;
@@ -116,7 +127,7 @@ namespace Account
             Console.WriteLine("Input ammount");
             if (account.Deposit(InputToDec(Console.ReadLine())))
             {
-                Console.WriteLine("Deposit sucessful, your new balance is " + account.Balance());
+                Console.WriteLine("Deposit sucessful, your new balance is " + account.Balance);
             }
         }
         static void DoWithdraw(Account account)
@@ -124,7 +135,7 @@ namespace Account
             Console.WriteLine("Input ammount");
             if (account.Withdraw(InputToDec(Console.ReadLine())))
             {
-                Console.WriteLine("Widthdraw sucessful, your new balance is " + account.Balance());
+                Console.WriteLine("Widthdraw sucessful, your new balance is " + account.Balance);
             }
         }
         static void DoPrint(Account account)
