@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tak5.1/ZooPark/ZooPark.csproj",
+      "projectUniqueName": "/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/ZooPark.csproj",
       "projectName": "ZooPark",
-      "projectPath": "/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tak5.1/ZooPark/ZooPark.csproj",
+      "projectPath": "/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/ZooPark.csproj",
       "packagesPath": "/Users/thanhnguyen/.nuget/packages/",
-      "outputPath": "/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tak5.1/ZooPark/obj/",
+      "outputPath": "/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/thanhnguyen/.config/NuGet/NuGet.Config"
