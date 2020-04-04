@@ -8,7 +8,7 @@ namespace Account
     {
         public static void Sort(Account[] accounts, int b)
         {
-            List<string> result = new List<string>();
+            List<Account> result = new List<Account>();
 
             //make list inside list
             List<List<Account>> buckets = new List<List<Account>>();
@@ -38,33 +38,27 @@ namespace Account
             }
 
             //Add the sorted to a list
-
             for (int i = 0; i < b; i++)
             {
-                Console.WriteLine("Bucket " + i);
                 foreach (var item in buckets[i])
                 {
-                    Console.WriteLine($"Account name: {item.Name()} \t\t available balance: {item.Balance}");
+                    result.Add(item);
                 }
-                Console.WriteLine();
             }
 
-            //for (int i = 0; i<b; i++)
-            //{              
-            //    foreach (var item in buckets[i])
-            //    {
-            //        result.Add(item.Name());
-            //    }
-            //}
-
-
-            //result.ForEach(Console.WriteLine);
+            //Print the list
+            foreach (var item in result)
+            {
+                Console.WriteLine($"Account name: {item.Name()} \t\t available balance:  {item.Balance.ToString("C")}");
+            }
+            
         }
 
         public static void Sort(List<Account> accounts, int b)
         {
+            Account[] convertToList = accounts.ToArray();
 
-
+            Sort(convertToList, b);
         }
     }
 }

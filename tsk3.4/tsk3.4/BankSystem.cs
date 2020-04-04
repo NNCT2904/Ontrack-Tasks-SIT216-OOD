@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 public enum MenuOptions
 {
@@ -28,10 +29,10 @@ namespace Account
             Account o = new Account("o", 32);
             Account p = new Account("p", 45);
 
+            List<Account> listAccount = new List<Account> { q, w, e, r, t, y, u, i, o, p };
+            Account[] arrayAccount = { q, w, e, r, t, y, u, i, o, p };
 
-            Account[] accountList = { q, w, e, r, t, y, u, i, o, p };
-
-            AccountSorter.Sort(accountList, 10);
+            AccountSorter.Sort(listAccount, 10);
 
             //print out the UI, not for this task
             //UI(ncng);
