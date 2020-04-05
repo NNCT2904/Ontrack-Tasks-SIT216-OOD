@@ -1,13 +1,12 @@
 ﻿using System;
 namespace ZooPark
 {
-    public class Tiger : Animals
+    public class Tiger : Feline
     {
-        private string species, colourStripes;
+        private string  colourStripes;
         public Tiger(string name, string diet, string location, double weight, int age, string colour, string species, string colourStripes)
-            : base(name, diet, location, weight, age, colour)
+            : base(name, diet, location, weight, age, colour, species)
         {
-            this.species = species;
             this.colourStripes = colourStripes;
         }
 
@@ -19,6 +18,11 @@ namespace ZooPark
         public override void MakeNoise()
         {
             Console.WriteLine("REEEEEEE");
+        }
+
+        public override void PlayVideoGame()
+        {
+            Console.WriteLine("PC MASTERRACE");
         }
     }
 }

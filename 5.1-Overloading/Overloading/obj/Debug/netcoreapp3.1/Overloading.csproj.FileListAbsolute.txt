@@ -1,0 +1,12 @@
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/5.1-Overloading/Overloading/bin/Debug/netcoreapp3.1/Overloading.deps.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/5.1-Overloading/Overloading/bin/Debug/netcoreapp3.1/Overloading.runtimeconfig.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/5.1-Overloading/Overloading/bin/Debug/netcoreapp3.1/Overloading.runtimeconfig.dev.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/5.1-Overloading/Overloading/bin/Debug/netcoreapp3.1/Overloading.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/5.1-Overloading/Overloading/bin/Debug/netcoreapp3.1/Overloading.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/5.1-Overloading/Overloading/obj/Debug/netcoreapp3.1/Overloading.csprojAssemblyReference.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/5.1-Overloading/Overloading/obj/Debug/netcoreapp3.1/Overloading.csproj.CoreCompileInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/5.1-Overloading/Overloading/obj/Debug/netcoreapp3.1/Overloading.AssemblyInfoInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/5.1-Overloading/Overloading/obj/Debug/netcoreapp3.1/Overloading.AssemblyInfo.cs
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/5.1-Overloading/Overloading/obj/Debug/netcoreapp3.1/Overloading.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/5.1-Overloading/Overloading/obj/Debug/netcoreapp3.1/Overloading.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/5.1-Overloading/Overloading/obj/Debug/netcoreapp3.1/Overloading.genruntimeconfig.cache

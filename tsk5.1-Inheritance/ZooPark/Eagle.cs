@@ -1,26 +1,24 @@
 ﻿using System;
 namespace ZooPark
 {
-    public class Eagle : Animals
+    public class Eagle : Bird
     {
         string species;
-        double wingSpan;
 
         public Eagle(string name, string diet, string location, double weight, int age, string colour, string species, double wingSpan)
-            : base(name, diet, location, weight, age, colour)
+            : base(name, diet, location, weight, age, colour, species, wingSpan)
         {
             this.species = species;
-            this.wingSpan = wingSpan;
         }
 
-        public void LayEgg()
+        public override void LayEggs()
         {
-            //Lay codes
+            Console.WriteLine("Eagle lays eggs");
         }
 
-        public void Fly()
+        public override void Fly()
         {
-            //Code to fly
+            Console.WriteLine("Eagle Flies");
         }
 
         public override void Eat()

@@ -17,5 +17,10 @@ namespace ZooPark
         {
             Console.WriteLine("COOF COOF");
         }
+
+        public override void PlayVideoGame()
+        {
+            Console.WriteLine("PS4");
+        }
     }
 }

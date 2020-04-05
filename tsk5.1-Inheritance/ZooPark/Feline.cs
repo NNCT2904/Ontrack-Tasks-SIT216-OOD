@@ -1,10 +1,19 @@
 ﻿using System;
 namespace ZooPark
 {
-    public class Feline
+    public class Feline : Animals
     {
-        public Feline()
+        private string species;
+
+        public Feline(string name, string diet, string location, double weight, int age, string colour, string species)
+            :base(name, diet, location, weight, age, colour)
         {
+            this.species = species;
+        }
+
+        public override void Sleep()
+        {
+            Console.WriteLine("Cat sleep");
         }
     }
 }

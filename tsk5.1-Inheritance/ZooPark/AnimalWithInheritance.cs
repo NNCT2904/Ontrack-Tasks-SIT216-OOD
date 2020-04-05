@@ -14,7 +14,7 @@ namespace ZooPark
             this.location = location;
             this.weight =   weight;
             this.age =      age;
-            this.colour = colour;
+            this.colour =   colour;
         }
 
         public virtual void Eat()
@@ -22,7 +22,7 @@ namespace ZooPark
             Console.WriteLine("Animal yeet");
         }
 
-        public void Sleep()
+        public virtual void Sleep()
         {
             //Code for sleep
         }
@@ -32,6 +32,9 @@ namespace ZooPark
             Console.WriteLine("Animal scream");
         }
 
-        
+        public virtual void PlayVideoGame()
+        {
+            Console.WriteLine("Animal Crossing");
+        }
     }
 }
