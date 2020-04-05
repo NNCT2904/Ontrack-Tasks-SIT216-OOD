@@ -1,15 +1,21 @@
-﻿<Properties StartupConfiguration="{45349F7E-1CB9-49DE-B4EB-1A9EA91FF144}|Default">
+﻿<Properties StartupConfiguration="{3708EBCF-E2A4-4038-ACB1-1B8E17724F52}|Default">
   <MonoDevelop.Ide.ItemProperties.ZooPark PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ZooPark/Animals.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZooPark/Feline.cs">
     <Files>
-      <File FileName="ZooPark/Animals.cs" Line="35" Column="2" />
-      <File FileName="ZooPark/ZooPark.cs" />
+      <File FileName="ZooPark/Animals.cs" Line="37" Column="50" />
+      <File FileName="ZooPark/ZooPark.cs" Line="19" Column="36" />
+      <File FileName="ZooPark/Tiger.cs" Line="26" Column="48" />
+      <File FileName="ZooPark/Wolf.cs" Line="23" Column="38" />
+      <File FileName="ZooPark/Eagle.cs" Line="38" Column="50" />
+      <File FileName="ZooPark/Feline.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="tsk5.1" expanded="True" selected="True">
-            <Node name="ZooPark" expanded="True" />
+          <Node name="tsk5.1-Inheritance" expanded="True">
+            <Node name="ZooPark" expanded="True">
+              <Node name="Feline.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
