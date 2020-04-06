@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{A0F94413-1080-4771-90E9-0F7E807CBB49}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tsk3.2/BankSystem.cs">
+    <Files>
+      <File FileName="tsk3.2/Account.cs" Line="52" Column="17" />
+      <File FileName="tsk3.2/BankSystem.cs" Line="62" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="tsk3.2" expanded="True">
+            <Node name="tsk3.2" expanded="True">
+              <Node name="BankSystem.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.tsk3.2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
