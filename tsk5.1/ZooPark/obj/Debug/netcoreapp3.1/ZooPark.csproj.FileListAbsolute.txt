@@ -10,3 +10,15 @@
 /Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tak5.1/ZooPark/obj/Debug/netcoreapp3.1/ZooPark.dll
 /Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tak5.1/ZooPark/obj/Debug/netcoreapp3.1/ZooPark.pdb
 /Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tak5.1/ZooPark/obj/Debug/netcoreapp3.1/ZooPark.genruntimeconfig.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/bin/Debug/netcoreapp3.1/ZooPark.deps.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/bin/Debug/netcoreapp3.1/ZooPark.runtimeconfig.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/bin/Debug/netcoreapp3.1/ZooPark.runtimeconfig.dev.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/bin/Debug/netcoreapp3.1/ZooPark.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/bin/Debug/netcoreapp3.1/ZooPark.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/obj/Debug/netcoreapp3.1/ZooPark.csprojAssemblyReference.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/obj/Debug/netcoreapp3.1/ZooPark.csproj.CoreCompileInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/obj/Debug/netcoreapp3.1/ZooPark.AssemblyInfoInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/obj/Debug/netcoreapp3.1/ZooPark.AssemblyInfo.cs
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/obj/Debug/netcoreapp3.1/ZooPark.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/obj/Debug/netcoreapp3.1/ZooPark.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.1/ZooPark/obj/Debug/netcoreapp3.1/ZooPark.genruntimeconfig.cache

@@ -31,5 +31,30 @@ namespace ZooPark
         {
             //Code for making noise
         }
+
+        public void MakeLionNoise()
+        {
+            //Making noise
+        }
+
+        public void MakeEagleNoise()
+        {
+            //Making noise
+        }
+
+        public void MakeWolfNoise()
+        {
+            //Making noise
+        }
+
+        public void EatMeat()
+        {
+            //Eat meat
+        }
+
+        public void EatBerries()
+        {
+            //Eat berries
+        }
     }
 }
