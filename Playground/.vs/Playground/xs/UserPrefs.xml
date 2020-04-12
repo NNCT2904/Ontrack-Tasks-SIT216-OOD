@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{E9C4E375-03DA-47BD-B228-EF589A63E546}|Default">
+  <MonoDevelop.Ide.ItemProperties.Playground PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Playground/Program.cs">
+    <Files>
+      <File FileName="Playground/Program.cs" Line="14" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Playground" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>b</Value>
+          <Value>maxKeyValue</Value>
+          <Value>(int)Math.Floor(b * accounts[i].Balance() / maxKeyValue)</Value>
+          <Value>(int)global::System.Math.Floor(b * accounts[i].Balance() / maxKeyValue)&gt;9</Value>
+          <Value>i</Value>
+          <Value>buckets[i]</Value>
+          <Value>buckets[i].First().Balance</Value>
+          <Value>(int)Math.Floor(b * accounts[i].Balance / maxKeyValue)</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

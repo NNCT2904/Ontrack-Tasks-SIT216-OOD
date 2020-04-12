@@ -1,0 +1,12 @@
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/Playground/Playground/obj/Debug/netcoreapp3.1/Playground.csprojAssemblyReference.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/Playground/Playground/obj/Debug/netcoreapp3.1/Playground.csproj.CoreCompileInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/Playground/Playground/obj/Debug/netcoreapp3.1/Playground.AssemblyInfoInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/Playground/Playground/obj/Debug/netcoreapp3.1/Playground.AssemblyInfo.cs
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/Playground/Playground/bin/Debug/netcoreapp3.1/Playground.deps.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/Playground/Playground/bin/Debug/netcoreapp3.1/Playground.runtimeconfig.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/Playground/Playground/bin/Debug/netcoreapp3.1/Playground.runtimeconfig.dev.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/Playground/Playground/bin/Debug/netcoreapp3.1/Playground.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/Playground/Playground/bin/Debug/netcoreapp3.1/Playground.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/Playground/Playground/obj/Debug/netcoreapp3.1/Playground.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/Playground/Playground/obj/Debug/netcoreapp3.1/Playground.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/Playground/Playground/obj/Debug/netcoreapp3.1/Playground.genruntimeconfig.cache
