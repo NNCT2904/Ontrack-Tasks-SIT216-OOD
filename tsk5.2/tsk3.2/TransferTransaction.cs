@@ -32,6 +32,13 @@ namespace Account
             }
         }
 
+        public void Print()
+        {
+            Console.WriteLine($"Transfer {_amount.ToString("C")} from {_fromAccount.Name} to {_toAccount.Name}\n");
+            _withdraw.Print();
+            _deposit.Print();
+        }
+
         public void Execute()
         {
             if (this._executed == true)
@@ -49,25 +56,31 @@ namespace Account
                 this._deposit.Execute();
                 if (!_deposit.Success)
                 {
-                    RollBack();
+                    this._withdraw.Rollback();
                 }
                 
             }
         }
 
-        public void RollBack()
-        {
-            if (this._reversed == true)
+        public void Rollback()
+        {          
+            if (this._reversed)
             {
-                throw new InvalidOperationException("The transaction has already reversed");
+                throw new OperationCanceledException("The transaction has already reversed.");
             }
-            else if (this._executed == false)
+            else if(this._fromAccount.Balance < this._amount)
             {
-                throw new InvalidOperationException("The transaction has not been executed");
+                throw new OperationCanceledException("Insufficient fund to reverse transaction.");
             }
-            else if (this._executed == true && this._reversed == false)
+            else if (!this.Sucess)
             {
-
+                throw new OperationCanceledException("The transaction has not been complete.");
+            }
+            else if (this.Sucess)
+            {
+                this._withdraw.Rollback();
+                this._deposit.Rollback();
+                this._reversed = true;
             }
         }
     }

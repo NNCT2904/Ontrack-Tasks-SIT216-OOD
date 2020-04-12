@@ -16,7 +16,7 @@ namespace Account
         private static void Main(string[] args)
         {
             Account ncng = new Account("Thanh Nguyen", 99235);
-
+            Account dumyAccount = new Account("Dummy Account", 0);
             //print out the UI
             MenuOptions option = ReadUserInput();
             switch (option)
@@ -37,6 +37,12 @@ namespace Account
                     {
                         Console.WriteLine(Convert.ToString(option));
                         DoPrint(ncng);
+                        break;
+                    }
+                case MenuOptions.Transfer:
+                    {
+                        Console.WriteLine(Convert.ToString(option));
+                        DoTransfer(ncng, dumyAccount);
                         break;
                     }
                 case MenuOptions.Quit:
@@ -221,6 +227,68 @@ namespace Account
 
             Console.ReadLine();
 
+        }
+        private static void DoTransfer(Account fromAccount, Account toAccount)
+        { 
+            Console.WriteLine("You are going to transfer some money to a dummy account\n\n");
+            Console.WriteLine("Input the amount to transfer");
+            decimal amount = InputToDec(Console.ReadLine());
+
+            TransferTransaction currentTransaction = new TransferTransaction(fromAccount, toAccount, amount);
+
+            //Ask user to proceed, and veryfy user input.
+            Console.WriteLine("Proceed? Y/N");
+            string proceed;
+            do
+            {
+                proceed = Console.ReadLine().ToLower();
+                switch (proceed)
+                {
+                    case "y":
+                        {
+                            currentTransaction.Execute();
+                            break;
+                        }
+                    case "n":
+                        {
+                            break;
+                        }
+                    default:
+                        {
+                            Console.WriteLine("Unknown option, please try again");
+                            proceed = Console.ReadLine().ToLower();
+                            break;
+                        }
+                }
+            } while (proceed != "y" && proceed != "n" && string.IsNullOrEmpty(proceed));
+
+            //Ask user, then verify user input
+            Console.WriteLine("Print transaction details? Y/N");
+            string print;
+            do
+            {
+                print = Console.ReadLine().ToLower();
+                switch (print)
+                {
+                    case "y":
+                        {
+                            currentTransaction.Print();
+                            break;
+                        }
+                    case "n":
+                        {
+                            break;
+                        }
+                    default:
+                        {
+                            Console.WriteLine("Unknown option, please try again");
+                            print = Console.ReadLine().ToLower();
+                            break;
+                        }
+                }
+            } while (print != "y" && print != "n" && string.IsNullOrEmpty(print));
+
+            Console.ReadLine();
         }
 
         private static void DoPrint(Account account)

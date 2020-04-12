@@ -18,10 +18,11 @@ namespace Account
         public bool Executed { get => this._executed; }
         public bool Success { get => this._success; }
         public bool Reversed { get => this._reversed; }
+
         public void Print()
         {
             Console.WriteLine($"Account name: {this._account.Name}");
-            Console.WriteLine($"Amount: {this._amount}");
+            Console.WriteLine($"Amount to deposit: {this._amount.ToString("C")}");
             Console.Write("Status: ");
             if (this._success == true)
             {
@@ -32,7 +33,7 @@ namespace Account
                 Console.WriteLine("Abort");
             }
 
-            Console.WriteLine($"Available fund: {this._account.Balance.ToString("C")}");
+            Console.WriteLine($"Available fund: {this._account.Balance.ToString("C")}\n");
         }
 
         public void Execute()
@@ -67,6 +68,7 @@ namespace Account
             else if (this._executed == true && this._reversed == false)
             {
                 this._account.Deposit(_amount);
+                _reversed = true;
             }
         }
 

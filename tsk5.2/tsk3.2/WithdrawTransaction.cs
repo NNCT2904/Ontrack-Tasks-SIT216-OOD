@@ -21,7 +21,7 @@ namespace Account
         public void Print()
         {
             Console.WriteLine($"Account name: {this._account.Name}");
-            Console.WriteLine($"Amount: {this._amount}");
+            Console.WriteLine($"Amount to withdraw: {this._amount.ToString("C")}");
             Console.Write("Status: ");
             if (this._success == true)
             {
@@ -32,7 +32,7 @@ namespace Account
                 Console.WriteLine("Abort");
             }
             
-            Console.WriteLine($"Available fund: {this._account.Balance.ToString("C")}");
+            Console.WriteLine($"Available fund: {this._account.Balance.ToString("C")}\n");
         }
 
         public void Execute()
