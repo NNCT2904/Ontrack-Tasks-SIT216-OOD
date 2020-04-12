@@ -6,7 +6,7 @@ namespace Account
     {
         private Account _account;
         private decimal _amount;
-        private bool _executed = false, _success, _reversed;
+        private bool _executed, _success, _reversed;
 
         public WithdrawTransaction(Account account, decimal amount)
         {
@@ -15,8 +15,8 @@ namespace Account
         }
 
         public bool Executed { get => this._executed; }
-        public bool Success { get => this._executed; }
-        public bool Reversed { get => this._executed; }
+        public bool Success { get => this._success; }
+        public bool Reversed { get => this._reversed; }
 
         public void Print()
         {
@@ -41,12 +41,12 @@ namespace Account
             {
                 throw new InvalidOperationException("The transactrion has already been attempted");
             }
-            if (this._account.Balance < this._amount)
+            else if (this._account.Balance < this._amount)
             {
-                throw new InvalidOperationException("insufficient fund!");
                 this._executed = false;
+                throw new InvalidOperationException("Insufficient fund!");
             }
-            if (this._executed == false  && this._account.Balance > this._amount)
+            else if (this._executed == false  && this._account.Balance >= this._amount)
             {
                 this._success = this._account.Withdraw(_amount);
                 this._executed = true;

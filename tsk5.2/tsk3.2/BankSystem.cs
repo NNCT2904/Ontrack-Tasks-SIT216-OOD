@@ -4,8 +4,9 @@ public enum MenuOptions
 {
     Deposit = 1,
     Withdraw = 2,
-    Print = 3,
-    Quit = 4
+    Transfer = 3,
+    Print = 4,
+    Quit = 5
 }
 
 namespace Account
@@ -58,17 +59,17 @@ namespace Account
             }
             Console.Write("Select one option: ");
 
-            //User input validation, stricted to range (1-4)
+            //User input validation, stricted to range of the item in MenuOptions
             do
             {
                 userInput = InputToInt(Console.ReadLine());
-                if (userInput <= 0 || userInput >= 4)
+                if (userInput <= 0 || userInput >= Enum.GetValues(typeof(MenuOptions)).Length)
                 {
                     Console.WriteLine("Unknown option, try again!");
                 }
-            } while (userInput <= 0 || userInput >= 4);
+            } while (userInput <= 0 || userInput >= Enum.GetValues(typeof(MenuOptions)).Length);
 
-            //Return the option based on the user input, expected 1 to 4
+            //Return the option based on the user input, expected Number of options in Menu
             return (MenuOptions)userInput;
         }
 
@@ -99,10 +100,65 @@ namespace Account
         private static void DoDeposit(Account account)
         {
             Console.WriteLine("Input amount");
-            if (account.Deposit(InputToDec(Console.ReadLine())))
+            decimal amount = InputToDec(Console.ReadLine());
+            DepositTransaction currentTransaction = new DepositTransaction(account, amount);
+
+
+            //Ask user to proceed, and veryfy user input.
+            Console.WriteLine("Proceed? Y/N");
+            string proceed;
+            do
             {
-                Console.WriteLine("Deposit sucessful, your new balance is " + account.Balance);
-            }
+                proceed = Console.ReadLine().ToLower();
+                switch (proceed)
+                {
+                    case "y":
+                        {
+                            currentTransaction.Execute();
+                            break;
+                        }
+                    case "n":
+                        {
+                            break;
+                        }
+                    default:
+                        {
+                            Console.WriteLine("Unknown option, please try again");
+                            proceed = Console.ReadLine().ToLower();
+                            break;
+                        }
+                }
+            } while (proceed != "y" && proceed != "n" && string.IsNullOrEmpty(proceed));
+
+            //Ask user, then verify user input
+            Console.WriteLine("Print transaction details? Y/N");
+            string print;
+            do
+            {
+                print = Console.ReadLine().ToLower();
+                switch (print)
+                {
+                    case "y":
+                        {
+                            currentTransaction.Print();
+                            break;
+                        }
+                    case "n":
+                        {
+                            break;
+                        }
+                    default:
+                        {
+                            Console.WriteLine("Unknown option, please try again");
+                            print = Console.ReadLine().ToLower();
+                            break;
+                        }
+                }
+            } while (print != "y" && print != "n" && string.IsNullOrEmpty(print));
+
+            Console.ReadLine();
+
+
         }
 
         private static void DoWithdraw(Account account)
@@ -143,7 +199,7 @@ namespace Account
             do
             {
                 print = Console.ReadLine().ToLower();
-                switch (proceed)
+                switch (print)
                 {
                     case "y":
                         {

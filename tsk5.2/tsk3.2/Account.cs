@@ -21,37 +21,37 @@ namespace Account
         public decimal Balance { get => _balance; }
 
         //Mutator methods
-        public bool Deposit(decimal ammount)
+        public bool Deposit(decimal amount)
         {
             bool deposited = false;
-            if (ammount < 0)
+            if (amount < 0)
             {
-                Console.WriteLine("The deposit ammount must not be negative");
+                Console.WriteLine("The deposit amount must not be negative");
                 deposited = false;
             }           
-            else if (ammount >= 0)
+            else if (amount >= 0)
             {
-                this._balance += ammount;
+                this._balance += amount;
                 deposited = true;
             }
             return deposited;
         }
 
-        public bool Withdraw(decimal ammount)
+        public bool Withdraw(decimal amount)
         {
             bool withdraw = false;
-            if (ammount < 0)
+            if (amount < 0)
             {
-                Console.WriteLine("The deposit ammount must not be negative");
+                Console.WriteLine("The deposit amount must not be negative");
                 withdraw = false;
             }
-            else if (ammount > this._balance)
+            else if (amount > this._balance)
             {
                 Console.WriteLine("You can not withdraw more than your balance!");
             }
             else
             {
-                this._balance -= ammount;
+                this._balance -= amount;
                 withdraw = true;
             }
             return withdraw;
