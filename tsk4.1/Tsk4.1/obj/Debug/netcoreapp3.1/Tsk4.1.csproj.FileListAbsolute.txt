@@ -1,0 +1,13 @@
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\obj\Debug\netcoreapp3.1\Tsk4.1.csprojAssemblyReference.cache
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\obj\Debug\netcoreapp3.1\Tsk4.1.csproj.CoreCompileInputs.cache
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\obj\Debug\netcoreapp3.1\Tsk4.1.AssemblyInfoInputs.cache
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\obj\Debug\netcoreapp3.1\Tsk4.1.AssemblyInfo.cs
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\bin\Debug\netcoreapp3.1\Tsk4.1.exe
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\bin\Debug\netcoreapp3.1\Tsk4.1.deps.json
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\bin\Debug\netcoreapp3.1\Tsk4.1.runtimeconfig.json
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\bin\Debug\netcoreapp3.1\Tsk4.1.runtimeconfig.dev.json
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\bin\Debug\netcoreapp3.1\Tsk4.1.dll
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\bin\Debug\netcoreapp3.1\Tsk4.1.pdb
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\obj\Debug\netcoreapp3.1\Tsk4.1.dll
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\obj\Debug\netcoreapp3.1\Tsk4.1.pdb
+D:\good things\Ontrack-Tasks\Tsk4.1\Tsk4.1\obj\Debug\netcoreapp3.1\Tsk4.1.genruntimeconfig.cache
