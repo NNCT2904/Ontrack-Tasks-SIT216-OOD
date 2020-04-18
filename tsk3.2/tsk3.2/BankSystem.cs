@@ -61,17 +61,17 @@ namespace Account
             }
             Console.Write("Select one option: ");
 
-            //User input validation, stricted to range (1-4)
+            //User input validation, stricted to range of MenuOption enum (1-4)
             do
             {
                 userInput = InputToInt(Console.ReadLine());
-                if (userInput <= 0 || userInput >= 4)
+                if (userInput <= 0 || userInput >= Enum.GetValues(typeof(MenuOptions)).Length)
                 {
                     Console.WriteLine("Unknown option, try again!");
                 }
-            } while (userInput <= 0 || userInput >= 4);
+            } while (userInput <= 0 || userInput >= Enum.GetValues(typeof(MenuOptions)).Length);
 
-            //Return the option based on the user input, expected 1 to 4
+            //Return the option based on the user input, in this case, expected 1 to 4
             return (MenuOptions)userInput;
         }
 

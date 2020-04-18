@@ -1,27 +1,13 @@
 ﻿<Properties StartupConfiguration="{A0F94413-1080-4771-90E9-0F7E807CBB49}|Default">
   <MonoDevelop.Ide.ItemProperties.BankTransaction PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="tsk3.2/DepositTransaction.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tsk3.2/BankSystem.cs">
     <Files>
       <File FileName="tsk3.2/Account.cs" Line="52" Column="17" />
-      <File FileName="tsk3.2/BankSystem.cs" Line="45" Column="55" />
-      <File FileName="tsk3.2/TransferTransaction.cs" Line="39" Column="30" />
-      <File FileName="tsk3.2/WithdrawTransaction.cs" Line="56" Column="29" />
-      <File FileName="tsk3.2/DepositTransaction.cs" Line="1" Column="1" />
+      <File FileName="tsk3.2/BankSystem.cs" Line="55" Column="1" />
+      <File FileName="tsk3.2/TransferTransaction.cs" Line="63" Column="10" />
+      <File FileName="tsk3.2/WithdrawTransaction.cs" Line="34" Column="13" />
+      <File FileName="tsk3.2/DepositTransaction.cs" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="BankTransaction" expanded="True">
-            <Node name="BankTransaction" expanded="True">
-              <Node name="DepositTransaction.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.tsk3.2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
