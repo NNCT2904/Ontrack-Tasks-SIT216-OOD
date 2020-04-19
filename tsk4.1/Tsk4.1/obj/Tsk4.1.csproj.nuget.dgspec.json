@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\good things\\Ontrack-Tasks\\Tsk4.1\\Tsk4.1\\Tsk4.1.csproj": {}
+    "D:\\good things\\Ontrack-Tasks\\tsk4.1\\Tsk4.1\\Tsk4.1.csproj": {}
   },
   "projects": {
-    "D:\\good things\\Ontrack-Tasks\\Tsk4.1\\Tsk4.1\\Tsk4.1.csproj": {
+    "D:\\good things\\Ontrack-Tasks\\tsk4.1\\Tsk4.1\\Tsk4.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\good things\\Ontrack-Tasks\\Tsk4.1\\Tsk4.1\\Tsk4.1.csproj",
+        "projectUniqueName": "D:\\good things\\Ontrack-Tasks\\tsk4.1\\Tsk4.1\\Tsk4.1.csproj",
         "projectName": "Tsk4.1",
-        "projectPath": "D:\\good things\\Ontrack-Tasks\\Tsk4.1\\Tsk4.1\\Tsk4.1.csproj",
+        "projectPath": "D:\\good things\\Ontrack-Tasks\\tsk4.1\\Tsk4.1\\Tsk4.1.csproj",
         "packagesPath": "C:\\Users\\nnct2\\.nuget\\packages\\",
-        "outputPath": "D:\\good things\\Ontrack-Tasks\\Tsk4.1\\Tsk4.1\\obj\\",
+        "outputPath": "D:\\good things\\Ontrack-Tasks\\tsk4.1\\Tsk4.1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nnct2\\AppData\\Roaming\\NuGet\\NuGet.Config",

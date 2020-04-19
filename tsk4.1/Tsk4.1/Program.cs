@@ -24,19 +24,23 @@ namespace Tsk4._1
             int index = 9;
             try
             {
-
                 testArray[index] = 50;
             }
             catch (IndexOutOfRangeException exception)
             {
-                Console.WriteLine($"You are trying to access the position {index.ToString()} of the array that have the length of {testArray.Length}\n" + exception.ToString());
+                Console.WriteLine($"\nYou are trying to access the position {index.ToString()} of the array that have the length of {testArray.Length}\n" + exception.ToString());
             }
             Console.ReadKey();
 
             //StackOverflowException
             //This exception can not be caught since .NET Framework 2.0
 
-            //
+            //OutOfMemoryException
+            //I can't make this exeptions since my computer's memory is just too big
+
+            //InvalidCastExeption
+            bool testBool = true;
+            DateTime testDateTime = Convert.ToDateTime(testBool);
 
             //InvalidOperationException
             try
@@ -46,7 +50,7 @@ namespace Tsk4._1
             }
             catch (InvalidOperationException exception)
             {
-                Console.WriteLine("The following error detected: " + exception.GetType().ToString() + " with message \"" + exception.Message + "\"");
+                Console.WriteLine("\nThe following error detected: " + exception.GetType().ToString() + " with message \"" + exception.Message + "\"");
             }
 
             Console.ReadKey();
