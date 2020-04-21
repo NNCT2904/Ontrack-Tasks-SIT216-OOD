@@ -12,7 +12,7 @@ namespace Tsk4._1
                 Account nullAccount = null;
                 nullAccount.Withdraw(3000);
             }
-            catch (NullReferenceException exception)
+            catch (SystemException exception)
             {
                 Console.WriteLine("There is a null value that is being used as reference!\n" + exception.ToString());
             }
@@ -39,8 +39,38 @@ namespace Tsk4._1
             //I can't make this exeptions since my computer's memory is just too big
 
             //InvalidCastExeption
+            try
+            {
             bool testBool = true;
             DateTime testDateTime = Convert.ToDateTime(testBool);
+            }
+            catch (InvalidCastException exception)
+            {
+                Console.WriteLine($"\n{exception.ToString()}\n");
+            }
+            Console.ReadKey();
+
+            //ArgumentException
+            try
+            {
+                int number = EvenNumberCheck(11);
+            }
+            catch (ArgumentException exception)
+            {
+                Console.WriteLine($"\n The following error detected: {exception.GetType().ToString()} with message: {exception.Message}\n");
+            }
+            Console.ReadKey();
+
+            //ArgumentOutOfRangeException
+            try
+            {
+                int age = CheckAdultAge(16);
+            }
+            catch (ArgumentOutOfRangeException exception)
+            {
+                Console.WriteLine($"\n The following error detected: {exception.GetType().ToString()} with message: {exception.Message}\n");
+            }
+            Console.ReadKey();
 
             //InvalidOperationException
             try
@@ -55,6 +85,25 @@ namespace Tsk4._1
 
             Console.ReadKey();
         }
+
+
+        static int CheckAdultAge(int inputAge)
+        {
+            if (inputAge<18)
+            {
+                throw new ArgumentOutOfRangeException(inputAge.ToString(),"Too young, come back when you are over 18");
+            }
+            return inputAge;
+        }
+
+        static int EvenNumberCheck(int input)
+        {
+            if (input%2!=0)
+            {
+                throw new ArgumentException(string.Format($"{input} is not an even number"));
+            }
+            return input;
+        }
     }
     class Account
     {
@@ -62,11 +111,11 @@ namespace Tsk4._1
         public string _lastName { get; private set; }
         public int _balance { get; private set; }
 
-        public Account(string _firstName, string _lastName, int balance)
+        public Account(string firstName, string lastName, int balance)
         {
-            _firstName = _firstName;
-            _lastName = _lastName;
-            _balance = balance;
+            firstName = _firstName;
+            lastName = _lastName;
+            balance = _balance;
         }
 
         public void Withdraw(int amount)
