@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Collections;
 
 namespace DuplicateCode
 {
@@ -15,8 +17,8 @@ namespace DuplicateCode
             while (true)
             {
                 Console.Clear();
-                int max = personal.GetList.Length > work.GetList.Length ? personal.GetList.Length : work.GetList.Length;
-                max = max > family.GetList.Length ? max : family.GetList.Length;
+                int max = personal.GetList.Count > work.GetList.Count ? personal.GetList.Count : work.GetList.Count;
+                max = max > family.GetList.Count ? max : family.GetList.Count;
 
 
                 //Print out the Table
@@ -29,7 +31,7 @@ namespace DuplicateCode
                 {
                     Console.Write("{0,10}|", i);
 
-                    if (personal.GetList.Length > i)
+                    if (personal.GetList.Count > i)
                     {
                         Console.Write("{0,30}|", personal.GetList[i]);
                     }
@@ -38,7 +40,7 @@ namespace DuplicateCode
                         Console.Write("{0,30}|", "N/A");
                     }
 
-                    if (work.GetList.Length > i)
+                    if (work.GetList.Count > i)
                     {
                         Console.Write("{0,30}|", work.GetList[i]);
                     }
@@ -47,7 +49,7 @@ namespace DuplicateCode
                         Console.Write("{0,30}|", "N/A");
                     }
 
-                    if (family.GetList.Length > i)
+                    if (family.GetList.Count > i)
                     {
                         Console.Write("{0,30}|", family.GetList[i]);
                     }
@@ -66,7 +68,6 @@ namespace DuplicateCode
                 Console.WriteLine("Describe your task below (max. 30 symbols)."); 
                 Console.Write(">> ");
                 string task = Console.ReadLine(); 
-                if (task.Length > 30) task = task.Substring(0, 30);
 
                 //Assign task to each category
                 if (listName == "personal")
@@ -85,50 +86,77 @@ namespace DuplicateCode
         }
     }
 
+    public class Table
+    {
+        private string _name;
+        private List<Category> _tableItems;
+        public Table(string name)
+        {
+            this._name = name;
+            this._tableItems = new List<Category>();
+        }
+
+        public void AddCategory(string categoryName)
+        {
+            this._tableItems.Add(new Category(categoryName));
+        }
+
+        public void RemoveCategory(string categoryName)
+        {
+            int i = 0;
+            while(i<_tableItems.Count)
+            {
+                if (this._tableItems[i].GetName == categoryName)
+                {
+                    _tableItems.RemoveAt(i);
+                }
+                else i++;
+            }
+        }
+
+        public Table BaseTable()
+        {
+            this.AddCategory("Personal");
+            this.AddCategory("Work");
+            this.AddCategory("Family");
+            return this;
+        }
+
+
+    }
 
     public class Category
     {
         private string _name;
-        private string[] _listItem;
+        private List<string> _listItem;
 
         public Category(string name)
         {
             this._name = name;
-            this._listItem = new string[0];
+            this._listItem = new List<string>();
         }
 
         //Get the name and list of item
         public string GetName
         {
-            get { return this._name; }
+            get => this._name;
         }
-        public string[] GetList
+        public List<string> GetList
         {
-            get { return this._listItem; }
+            get => this._listItem; 
         }
 
         //Mutator, add new item to the list
         public void AddItem(string item)
         {
-
-            //Copy the current array to a new array with +1 length
-            string[] listIndividualNew = new string[this._listItem.Length + 1];
-            for (int j = 0; j < this._listItem.Length; j++)
-            {
-                listIndividualNew[j] = this._listItem[j];
-            }
-
-            //Assign the new item to the last position of the new array
-            listIndividualNew[listIndividualNew.Length - 1] = item;
-
-            //Transfer the new array's item to the old one
-            this._listItem = listIndividualNew;
+            //add item to list
+            this._listItem.Add(item);
         }
         public void PrintList()
         {
             foreach (var item in this._listItem)
             {
-                Console.WriteLine("{0,30}|", item);
+                Console.WriteLine("{0,30}|", item.Substring(0, 30));
             }
         }
     }
