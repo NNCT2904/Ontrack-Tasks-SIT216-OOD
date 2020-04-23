@@ -19,96 +19,14 @@ namespace DuplicateCode
     {
         private static void Main(string[] args)
         {
-            string[] tasksIndividual = new string[0], tasksWork = new string[0], tasksFamilly = new string[0];
-
-            Category personal = new Category("Personal");
-            Category work = new Category("Work");
-            Category family = new Category("Family");
-
             Table testTable = new Table("testTable");
-            testTable.GetCategories[0].AddItem("agdfgsdf", ConvertToDatetime("30/04/2020"));
-            testTable.GetCategories[0].AddItem("bdtryjty");
-            testTable.GetCategories[0].AddItem("csrfgt");
-            testTable.GetCategories[0].AddItem("dsdfgsdgf");
-            testTable.Transfer("Personal", "Work", 1);
-            testTable.RemoveCategory("family");
-            testTable.GetCategories[0].SwapOrder(1, 0);
+            testTable.TestSample();
             while (true)
             {
                 Console.Clear();
                 testTable.Print();
                 Console.ResetColor();
                 UI(testTable);
-                Console.ReadKey();
-            }
-            while (true)
-            {
-                Console.Clear();
-                int max = personal.GetList.Count > work.GetList.Count ? personal.GetList.Count : work.GetList.Count;
-                max = max > family.GetList.Count ? max : family.GetList.Count;
-
-                //Print out the Table
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine(new string(' ', 12) + "CATEGORIES");
-                Console.WriteLine(new string(' ', 10) + new string('-', 94));
-                Console.WriteLine("{0,10}|{1,30}|{2,30}|{3,30}|", "item #", personal.GetName, work.GetName, family.GetName);
-                Console.WriteLine(new string(' ', 10) + new string('-', 94));
-                for (int i = 0; i < max; i++)
-                {
-                    Console.Write("{0,10}|", i);
-
-                    if (personal.GetList.Count > i)
-                    {
-                        Console.Write("{0,30}|", personal.GetList[i]);
-                    }
-                    else
-                    {
-                        Console.Write("{0,30}|", "N/A");
-                    }
-
-                    if (work.GetList.Count > i)
-                    {
-                        Console.Write("{0,30}|", work.GetList[i]);
-                    }
-                    else
-                    {
-                        Console.Write("{0,30}|", "N/A");
-                    }
-
-                    if (family.GetList.Count > i)
-                    {
-                        Console.Write("{0,30}|", family.GetList[i]);
-                    }
-                    else
-                    {
-                        Console.Write("{0,30}|", "N/A");
-                    }
-                    Console.WriteLine();
-                }
-
-                //Ask for category and task
-                Console.ResetColor();
-                Console.Write("\nWhich category do you want to place a new task?");
-                Console.WriteLine("Type \'Personal\', \'Work\', or \'Family\'");
-                Console.Write(">> ");
-                string listName = Console.ReadLine().ToLower();
-                Console.WriteLine("Describe your task below (max. 30 symbols).");
-                Console.Write(">> ");
-                string task = Console.ReadLine();
-
-                //Assign task to each category
-                if (listName == "personal")
-                {
-                    personal.AddItem(task);
-                }
-                else if (listName == "work")
-                {
-                    work.AddItem(task);
-                }
-                else if (listName == "family")
-                {
-                    family.AddItem(task);
-                }
             }
         }
 
@@ -126,9 +44,110 @@ namespace DuplicateCode
                         RemoveTask(table);
                         break;
                     }
+                case MenuOptions.AddCategory:
+                    {
+                        AddCat(table);
+                        break;
+                    }
+                case MenuOptions.DeleteCategory:
+                    {
+                        DelCat(table);
+                        break;
+                    }
+                case MenuOptions.SwapPriority:
+                    {
+                        Swap(table);
+                        break;
+                    }
+                case MenuOptions.MoveTask:
+                    {
+                        Move(table);
+                        break;
+                    }
+                case MenuOptions.Highligh:
+                    {
+                        Highlight(table);
+                        break;
+                    }
             }
         }
 
+        //Table Functions
+        private static void AddTask(Table table)
+        {
+            int index = ChooseCategory(table);
+
+            Console.Write("Enter your task, max 30 symbols\n>> ");
+            string taskName = CheckString(Console.ReadLine(), 30);
+
+            Console.WriteLine("Enter the deadline, enter anything else if you don't have deadline");
+
+            //User can ignore deadline
+            if (DateTime.TryParse(Console.ReadLine(), out DateTime deadlineDate))
+            {
+                table.GetCategories[index].AddItem(taskName, deadlineDate);
+            }
+            else
+            {
+                table.GetCategories[index].AddItem(taskName);
+            }
+        }
+
+        private static void RemoveTask(Table table)
+        {
+            int index = ChooseCategory(table);
+            int taskOrder = ChooseTask(table, index);
+            table.GetCategories[index].RemoveItem(taskOrder);
+        }
+
+        private static void AddCat(Table table)
+        {
+            Console.Write("Enter name for new category, under 20 characters\n>> ");
+            //Limit category to 20 characters
+            table.AddCategory(CheckString(Console.ReadLine(), 20));
+        }
+
+        private static void DelCat(Table table)
+        {
+            table.RemoveCategory(ChooseCategory(table));
+        }
+
+        private static void Swap(Table table)
+        {
+            int category = ChooseCategory(table);
+            Console.Write("From ");
+            int from = ChooseTask(table, category);
+            Console.Write("To ");
+            int to = ChooseTask(table, category);
+
+            table.GetCategories[category].SwapOrder(from, to);
+        }
+
+        private static void Move(Table table)
+        {
+            Console.WriteLine("From ");
+            int fromCat = ChooseCategory(table);
+            int index = ChooseTask(table, fromCat);
+            Console.WriteLine("To ");
+            int toCat = ChooseCategory(table);
+
+            table.Transfer(fromCat.ToString(), toCat.ToString(), index);
+        }
+
+        private static void Highlight(Table table)
+        {
+            int cat = ChooseCategory(table);
+            int task = ChooseTask(table, cat);
+            //Mark as priority, unmark if the task is already marked
+            if (table.GetCategories[cat].GetList[task].GetPriority)
+            {
+                table.GetCategories[cat].GetList[task].NotPriority();
+            }
+            else table.GetCategories[cat].GetList[task].Priority();
+        }
+
+        //Methods
+        //Return MenuOption datatype based on user input
         private static MenuOptions ReadUserInput()
         {
             int userInput;
@@ -145,53 +164,63 @@ namespace DuplicateCode
             {
                 Console.Write(">> ");
                 userInput = InputToInt(Console.ReadLine());
-                if (userInput <= 0 || userInput >= Enum.GetValues(typeof(MenuOptions)).Length)
+                if (userInput <= 0 || userInput > Enum.GetValues(typeof(MenuOptions)).Length)
                 {
                     Console.WriteLine("Unknown option, try again!");
                 }
-            } while (userInput <= 0 || userInput >= Enum.GetValues(typeof(MenuOptions)).Length);
+            } while (userInput <= 0 || userInput > Enum.GetValues(typeof(MenuOptions)).Length);
 
             return (MenuOptions)userInput;
         }
 
-        private static void AddTask(Table table)
+        //Check user input, and set a limit
+        private static string CheckString(string input, int limit)
         {
-            Console.WriteLine("Which category?");
-            for (int i = 0; i < table.GetCategories.Count; i++)
-            {
-                Console.Write($"| {i}. {table.GetCategories[i].GetName} |");
-            }
-            Console.Write("\n>> ");
-
-            int index = 0;
+            int count = 0;
             do
             {
-                index = InputToInt(Console.ReadLine());
-                if (index < 0 || index > table.GetCategories.Count)
+                //Count the length of input
+                count = 0;
+                foreach (char character in input)
+                    if (character == '/')
+                        count++;
+                if (count > limit)
                 {
-                    Console.WriteLine("Unknown Category! Please ty again");
+                    Console.WriteLine("Input should not over 30, try again");
+                    input = Console.ReadLine();
                 }
-            } while (index < 0 || index > table.GetCategories.Count);
-
-            Console.Write("Enter your task, max 30 symbols\n>> ");
-            string taskName = CheckString(Console.ReadLine());
-
-            Console.WriteLine("Enter the deadline, enter anything else if you don't have deadline");
-
-            if (DateTime.TryParse(Console.ReadLine(), out DateTime deadlineDate))
-            {
-                table.GetCategories[index].AddItem(taskName, deadlineDate);
-            }
-            else
-            {
-                table.GetCategories[index].AddItem(taskName);
-            }
-
+            } while (count > limit);
+            return input;
         }
 
-        private static void RemoveTask(Table table)
+        //convert input to string
+        private static int InputToInt(string inputNumberAsString)
         {
-            Console.WriteLine("Which category");
+            int inputNumber;
+            while (!int.TryParse(inputNumberAsString, out inputNumber))
+            {
+                Console.WriteLine("This is not quite an integer");
+                inputNumberAsString = Console.ReadLine();
+            }
+            return inputNumber;
+        }
+
+        private static DateTime InputToDatetime(string input)
+        {
+            DateTime time;
+            while (!DateTime.TryParse(input, out time))
+            {
+                Console.WriteLine("Invalid date, try again");
+                input = Console.ReadLine();
+            }
+            return time;
+        }
+
+        private static int ChooseCategory(Table table)
+        {
+            //Print Category and index
+            Console.Write("Which category?");
+            Console.WriteLine();
             for (int i = 0; i < table.GetCategories.Count; i++)
             {
                 Console.Write($"| {i}. {table.GetCategories[i].GetName} |");
@@ -207,64 +236,23 @@ namespace DuplicateCode
                     Console.WriteLine("Unknown Category! Please ty again");
                 }
             } while (index < 0 || index > table.GetCategories.Count);
+            //Return the index of chosen category in the table
+            return index;
+        }
 
-            Console.Write("Which task do you want to remove?\n>> ");
-
+        private static int ChooseTask(Table table, int category)
+        {
+            Console.Write("Which task?\n>> ");
             int taskOrder = 0;
             do
             {
                 taskOrder = InputToInt(Console.ReadLine());
-                if (taskOrder < 0 || taskOrder >= table.GetCategories[index].GetList.Count)
+                if (taskOrder < 0 || taskOrder >= table.GetCategories[category].GetList.Count)
                 {
                     Console.WriteLine("Unknown task! Please try again");
                 }
-            } while (taskOrder < 0 || taskOrder >= table.GetCategories[index].GetList.Count);
-
-            table.GetCategories[index].RemoveItem(taskOrder);
-        }
-
-        //Methods
-        //Check user input, it should not be over 30 character
-        private static string CheckString(string input)
-        {
-            int count = 0;
-            do
-            {
-                //Count the length of input
-                count = 0;
-                foreach (char character in input)
-                    if (character == '/')
-                        count++;
-                if (count > 30)
-                {
-                    Console.WriteLine("Input should not over 30, try again");
-                    input = Console.ReadLine();
-                }
-            } while (count > 30);
-            return input;
-        }
-
-        private static int InputToInt(string inputNumberAsString)
-        {
-            int inputNumber;
-            while (!int.TryParse(inputNumberAsString, out inputNumber))
-            {
-                Console.WriteLine("This is not quite an integer");
-                inputNumberAsString = Console.ReadLine();
-            }
-            return inputNumber;
-        }
-
-
-        private static DateTime ConvertToDatetime(string input)
-        {
-            DateTime time;
-            while (!DateTime.TryParse(input, out time))
-            {
-                Console.WriteLine("Invalid date, try again");
-                input = Console.ReadLine();
-            }
-            return time;
+            } while (taskOrder < 0 || taskOrder >= table.GetCategories[category].GetList.Count);
+            return taskOrder;
         }
     }
 
@@ -303,6 +291,11 @@ namespace DuplicateCode
             this._tableItems.Add(new Category(categoryName));
         }
 
+        public void RemoveCategory(int index)
+        {
+            this._tableItems.RemoveAt(index);
+        }
+
         public void RemoveCategory(string categoryName)
         {
             this._tableItems.Remove(StringToCategory(categoryName));
@@ -322,8 +315,7 @@ namespace DuplicateCode
 
         public void Print()
         {
-            int max = this._tableItems[0].GetList.Count > this._tableItems[1].GetList.Count ?
-                this._tableItems[0].GetList.Count : this._tableItems[1].GetList.Count;
+            int max = this._tableItems[0].GetList.Count;
             foreach (var category in this._tableItems)
             {
                 max = max > category.GetList.Count ? max : category.GetList.Count;
@@ -337,17 +329,19 @@ namespace DuplicateCode
             Console.WriteLine(new string(' ', 12) + "CATEGORIES");
             Console.WriteLine(new string(' ', 10) + new string('-', (_tableItems.Count * 41 + 1)));
             Console.Write("{0,10}|", "Item #");
-            foreach (var category in this._tableItems)
+            //Print Category with index number
+            for (int i = 0; i < this._tableItems.Count; i++)
             {
-                Console.Write("{0,40}|", category.GetName);
+                Console.Write("{0,40}|", $"[{i}] " + this._tableItems[i].GetName);
             }
+
             Console.WriteLine();
             Console.WriteLine(new string(' ', 10) + new string('-', (_tableItems.Count * 41 + 1)));
 
             //Print tasks in each category
             for (int i = 0; i < max; i++)
             {
-                Console.Write("{0,10}|", i);
+                Console.Write("{0,10}|", $"[{i}]");
                 foreach (var category in this._tableItems)
                 {
                     if (category.GetList.Count > i)
@@ -380,6 +374,19 @@ namespace DuplicateCode
                     return category;
 
             return null;
+        }
+    
+        //Sample table for testing 
+        public void TestSample()
+        {
+            this._tableItems.Clear();
+            this.BaseTable();
+            this._tableItems[0].AddItem("Drink water");
+            this._tableItems[0].AddItem("Birthday", new DateTime(2020, 04, 29));
+            this._tableItems[0].AddItem("Onetrack task 3.2", new DateTime(2020, 04, 27));
+            this._tableItems[1].AddItem("IT Interview", new DateTime(2020, 04, 30));
+            this._tableItems[2].AddItem("Call Dad");
+            
         }
     }
 
