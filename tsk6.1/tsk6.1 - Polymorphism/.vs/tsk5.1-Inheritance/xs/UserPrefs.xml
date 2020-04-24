@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{3708EBCF-E2A4-4038-ACB1-1B8E17724F52}|Default">
+  <MonoDevelop.Ide.ItemProperties.ZooPark PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZooPark/ZooParkWithInheritance.cs">
+    <Files>
+      <File FileName="ZooPark/Animals.cs" Line="17" Column="29" />
+      <File FileName="ZooPark/ZooPark.cs" Line="32" Column="35" />
+      <File FileName="ZooPark/Tiger.cs" Line="11" Column="10" />
+      <File FileName="ZooPark/Wolf.cs" Line="23" Column="38" />
+      <File FileName="ZooPark/Eagle.cs" Line="15" Column="10" />
+      <File FileName="ZooPark/Feline.cs" Line="17" Column="10" />
+      <File FileName="ZooPark/Bird.cs" Line="27" Column="37" />
+      <File FileName="ZooPark/Lion.cs" Line="9" Column="13" />
+      <File FileName="ZooPark/Penguin.cs" Line="7" Column="80" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="tsk5.1-Inheritance" expanded="True">
+            <Node name="ZooPark" expanded="True">
+              <Node name="ZooParkWithInheritance.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>b</Value>
+          <Value>maxKeyValue</Value>
+          <Value>(int)Math.Floor(b * accounts[i].Balance() / maxKeyValue)</Value>
+          <Value>(int)global::System.Math.Floor(b * accounts[i].Balance() / maxKeyValue)&gt;9</Value>
+          <Value>i</Value>
+          <Value>buckets[i]</Value>
+          <Value>buckets[i].First().Balance</Value>
+          <Value>(int)Math.Floor(b * accounts[i].Balance / maxKeyValue)</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
