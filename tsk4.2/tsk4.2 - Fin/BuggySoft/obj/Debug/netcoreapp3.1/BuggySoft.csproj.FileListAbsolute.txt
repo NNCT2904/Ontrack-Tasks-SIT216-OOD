@@ -24,19 +24,6 @@ D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Revised Code/BuggySoft/bin/Debug/ne
 D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Revised Code/BuggySoft/bin/Debug/netcoreapp3.1/BuggySoft.dll
 D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Revised Code/BuggySoft/bin/Debug/netcoreapp3.1/BuggySoft.pdb
 D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Revised Code/BuggySoft/obj/Debug/netcoreapp3.1/BuggySoft.genruntimeconfig.cache
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/bin/Debug/netcoreapp3.1/BuggySoft.exe
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/bin/Debug/netcoreapp3.1/BuggySoft.deps.json
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/bin/Debug/netcoreapp3.1/BuggySoft.runtimeconfig.json
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/bin/Debug/netcoreapp3.1/BuggySoft.runtimeconfig.dev.json
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/bin/Debug/netcoreapp3.1/BuggySoft.dll
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/bin/Debug/netcoreapp3.1/BuggySoft.pdb
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/obj/Debug/netcoreapp3.1/BuggySoft.csprojAssemblyReference.cache
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/obj/Debug/netcoreapp3.1/BuggySoft.csproj.CoreCompileInputs.cache
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/obj/Debug/netcoreapp3.1/BuggySoft.AssemblyInfoInputs.cache
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/obj/Debug/netcoreapp3.1/BuggySoft.AssemblyInfo.cs
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/obj/Debug/netcoreapp3.1/BuggySoft.dll
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/obj/Debug/netcoreapp3.1/BuggySoft.pdb
-D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/obj/Debug/netcoreapp3.1/BuggySoft.genruntimeconfig.cache
 /mnt/d/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/bin/Debug/netcoreapp3.1/BuggySoft
 /mnt/d/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/bin/Debug/netcoreapp3.1/BuggySoft.deps.json
 /mnt/d/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/bin/Debug/netcoreapp3.1/BuggySoft.runtimeconfig.json
@@ -50,3 +37,16 @@ D:/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/obj/Debug/netcoreapp3
 /mnt/d/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/obj/Debug/netcoreapp3.1/BuggySoft.dll
 /mnt/d/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/obj/Debug/netcoreapp3.1/BuggySoft.pdb
 /mnt/d/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/obj/Debug/netcoreapp3.1/BuggySoft.genruntimeconfig.cache
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\bin\Debug\netcoreapp3.1\BuggySoft.exe
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\bin\Debug\netcoreapp3.1\BuggySoft.deps.json
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\bin\Debug\netcoreapp3.1\BuggySoft.runtimeconfig.json
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\bin\Debug\netcoreapp3.1\BuggySoft.runtimeconfig.dev.json
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\bin\Debug\netcoreapp3.1\BuggySoft.dll
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\bin\Debug\netcoreapp3.1\BuggySoft.pdb
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\obj\Debug\netcoreapp3.1\BuggySoft.csproj.CoreCompileInputs.cache
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\obj\Debug\netcoreapp3.1\BuggySoft.AssemblyInfoInputs.cache
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\obj\Debug\netcoreapp3.1\BuggySoft.AssemblyInfo.cs
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\obj\Debug\netcoreapp3.1\BuggySoft.dll
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\obj\Debug\netcoreapp3.1\BuggySoft.pdb
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\obj\Debug\netcoreapp3.1\BuggySoft.genruntimeconfig.cache
+D:\good things\Ontrack-Tasks\tsk4.2\tsk4.2 - Fin\BuggySoft\obj\Debug\netcoreapp3.1\BuggySoft.csprojAssemblyReference.cache

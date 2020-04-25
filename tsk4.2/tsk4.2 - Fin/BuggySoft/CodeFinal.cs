@@ -9,7 +9,7 @@ public enum MenuOptions
     AddCategory = 3,
     DeleteCategory = 4,
     SwapPriority = 5,
-    MoveTask = 6,
+    Transfer = 6,
     Highligh = 7,
 }
 
@@ -59,7 +59,7 @@ namespace DuplicateCode
                         Swap(table);
                         break;
                     }
-                case MenuOptions.MoveTask:
+                case MenuOptions.Transfer:
                     {
                         Move(table);
                         break;
@@ -80,7 +80,7 @@ namespace DuplicateCode
             Console.Write("Enter your task, max 30 symbols\n>> ");
             string taskName = CheckString(Console.ReadLine(), 30);
 
-            Console.WriteLine("Enter the deadline, enter anything else if you don't have deadline");
+            Console.WriteLine("Enter the deadline (dd/mm/yy), enter anything else if you don't have deadline");
 
             //User can ignore deadline
             if (DateTime.TryParse(Console.ReadLine(), out DateTime deadlineDate))
@@ -131,7 +131,7 @@ namespace DuplicateCode
             Console.WriteLine("To ");
             int toCat = ChooseCategory(table);
 
-            table.Transfer(fromCat.ToString(), toCat.ToString(), index);
+            table.Transfer(fromCat, toCat, index);
         }
 
         private static void Highlight(Table table)
@@ -301,16 +301,16 @@ namespace DuplicateCode
             this._tableItems.Remove(StringToCategory(categoryName));
         }
 
-        public void Transfer(string from, string to, int order)
+        public void Transfer(int from, int to, int order)
         {
             //Get the task from one category
-            string taskTransfer = StringToCategory(from).GetList[order].GetName;
+            Task taskTransfer = _tableItems[from].GetList[order];
 
             //Then remove that task
-            StringToCategory(from).RemoveItem(order);
+            _tableItems[from].RemoveItem(order);
 
             //Transfer to another category
-            StringToCategory(to).AddItem(taskTransfer);
+            _tableItems[to].AddItem(taskTransfer);
         }
 
         public void Print()
@@ -421,6 +421,11 @@ namespace DuplicateCode
         public void AddItem(string item)
         {
             this._listItem.Add(new Task(item));
+        }
+
+        public void AddItem(Task task)
+        {
+            this._listItem.Add(task);
         }
 
         public void RemoveItem(int order)

@@ -8,26 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\nnct2\\.nuget\\packages\\": {}
+    "/home/nnct/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\good things\\Ontrack-Tasks\\tsk4.2\\tsk4.2 - Fin\\BuggySoft\\BuggySoft.csproj",
+      "projectUniqueName": "/mnt/d/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/BuggySoft.csproj",
       "projectName": "BuggySoft",
-      "projectPath": "D:\\good things\\Ontrack-Tasks\\tsk4.2\\tsk4.2 - Fin\\BuggySoft\\BuggySoft.csproj",
-      "packagesPath": "C:\\Users\\nnct2\\.nuget\\packages\\",
-      "outputPath": "D:\\good things\\Ontrack-Tasks\\tsk4.2\\tsk4.2 - Fin\\BuggySoft\\obj\\",
+      "projectPath": "/mnt/d/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/BuggySoft.csproj",
+      "packagesPath": "/home/nnct/.nuget/packages/",
+      "outputPath": "/mnt/d/good things/Ontrack-Tasks/tsk4.2/tsk4.2 - Fin/BuggySoft/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nnct2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/nnct/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
       }
     }
   }
