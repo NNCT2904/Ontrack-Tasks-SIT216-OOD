@@ -1,0 +1,13 @@
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\bin\Debug\netcoreapp3.1\polymorphism.exe
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\bin\Debug\netcoreapp3.1\polymorphism.deps.json
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\bin\Debug\netcoreapp3.1\polymorphism.runtimeconfig.json
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\bin\Debug\netcoreapp3.1\polymorphism.runtimeconfig.dev.json
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\bin\Debug\netcoreapp3.1\polymorphism.dll
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\bin\Debug\netcoreapp3.1\polymorphism.pdb
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\obj\Debug\netcoreapp3.1\polymorphism.csprojAssemblyReference.cache
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\obj\Debug\netcoreapp3.1\polymorphism.csproj.CoreCompileInputs.cache
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\obj\Debug\netcoreapp3.1\polymorphism.AssemblyInfoInputs.cache
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\obj\Debug\netcoreapp3.1\polymorphism.AssemblyInfo.cs
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\obj\Debug\netcoreapp3.1\polymorphism.dll
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\obj\Debug\netcoreapp3.1\polymorphism.pdb
+D:\good things\Ontrack-Tasks\tsk6.1\polymorphism\obj\Debug\netcoreapp3.1\polymorphism.genruntimeconfig.cache
