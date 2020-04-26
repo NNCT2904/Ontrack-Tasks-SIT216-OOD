@@ -1,0 +1,37 @@
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.exe
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.deps.json
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.runtimeconfig.json
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.runtimeconfig.dev.json
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.dll
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.pdb
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.csprojAssemblyReference.cache
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.csproj.CoreCompileInputs.cache
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.AssemblyInfoInputs.cache
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.AssemblyInfo.cs
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.dll
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.pdb
+D:/good things/Ontrack-Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.genruntimeconfig.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.deps.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.runtimeconfig.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.runtimeconfig.dev.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.csprojAssemblyReference.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.csproj.CoreCompileInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.AssemblyInfoInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.AssemblyInfo.cs
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.genruntimeconfig.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk6.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.csprojAssemblyReference.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk6.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.csproj.CoreCompileInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk6.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.AssemblyInfoInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk6.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.AssemblyInfo.cs
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk6.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk6.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk6.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.deps.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk6.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.runtimeconfig.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk6.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.runtimeconfig.dev.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk6.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk6.2/tsk3.2/bin/Debug/netcoreapp3.1/BankTransaction.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk6.2/tsk3.2/obj/Debug/netcoreapp3.1/BankTransaction.genruntimeconfig.cache
