@@ -1,13 +1,25 @@
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\obj\Debug\netcoreapp3.1\ReactionTimer.csprojAssemblyReference.cache
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\obj\Debug\netcoreapp3.1\ReactionTimer.csproj.CoreCompileInputs.cache
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\obj\Debug\netcoreapp3.1\ReactionTimer.AssemblyInfoInputs.cache
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\obj\Debug\netcoreapp3.1\ReactionTimer.AssemblyInfo.cs
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\bin\Debug\netcoreapp3.1\ReactionTimer.exe
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\bin\Debug\netcoreapp3.1\ReactionTimer.deps.json
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\bin\Debug\netcoreapp3.1\ReactionTimer.runtimeconfig.json
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\bin\Debug\netcoreapp3.1\ReactionTimer.runtimeconfig.dev.json
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\bin\Debug\netcoreapp3.1\ReactionTimer.dll
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\bin\Debug\netcoreapp3.1\ReactionTimer.pdb
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\obj\Debug\netcoreapp3.1\ReactionTimer.dll
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\obj\Debug\netcoreapp3.1\ReactionTimer.pdb
-D:\good things\Ontrack-Tasks\tsk5.3\ReactionTimer\obj\Debug\netcoreapp3.1\ReactionTimer.genruntimeconfig.cache
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.csprojAssemblyReference.cache
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.csproj.CoreCompileInputs.cache
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.AssemblyInfoInputs.cache
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.AssemblyInfo.cs
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/bin/Debug/netcoreapp3.1/ReactionTimer.exe
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/bin/Debug/netcoreapp3.1/ReactionTimer.deps.json
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/bin/Debug/netcoreapp3.1/ReactionTimer.runtimeconfig.json
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/bin/Debug/netcoreapp3.1/ReactionTimer.runtimeconfig.dev.json
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/bin/Debug/netcoreapp3.1/ReactionTimer.dll
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/bin/Debug/netcoreapp3.1/ReactionTimer.pdb
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.dll
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.pdb
+D:/good things/Ontrack-Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.genruntimeconfig.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.3/ReactionTimer/bin/Debug/netcoreapp3.1/ReactionTimer.deps.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.3/ReactionTimer/bin/Debug/netcoreapp3.1/ReactionTimer.runtimeconfig.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.3/ReactionTimer/bin/Debug/netcoreapp3.1/ReactionTimer.runtimeconfig.dev.json
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.3/ReactionTimer/bin/Debug/netcoreapp3.1/ReactionTimer.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.3/ReactionTimer/bin/Debug/netcoreapp3.1/ReactionTimer.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.csprojAssemblyReference.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.csproj.CoreCompileInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.AssemblyInfoInputs.cache
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.AssemblyInfo.cs
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.dll
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.pdb
+/Users/thanhnguyen/Documents/Coding stuff/Ontrack Tasks/tsk5.3/ReactionTimer/obj/Debug/netcoreapp3.1/ReactionTimer.genruntimeconfig.cache

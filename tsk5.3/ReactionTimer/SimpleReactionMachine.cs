@@ -120,6 +120,7 @@ namespace ReactionTimer
 
             private void PrintUserInterface(string text)
             {
+                //Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.SetCursorPosition(15, 2);
                 Console.Write("{0,-20}", text);

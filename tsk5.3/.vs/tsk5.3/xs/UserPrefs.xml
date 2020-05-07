@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{9E355C27-73BE-4399-AB74-FB088E2D7C6B}|Default">
+  <MonoDevelop.Ide.ItemProperties.ReactionTimer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactionTimer/SimpleReactionMachine.cs">
+    <Files>
+      <File FileName="ReactionTimer/SimpleReactionController.cs" Line="125" Column="78" />
+      <File FileName="ReactionTimer/IController.cs" Line="19" Column="21" />
+      <File FileName="ReactionTimer/IGui.cs" Line="13" Column="19" />
+      <File FileName="ReactionTimer/IRandom.cs" Line="5" Column="18" />
+      <File FileName="ReactionTimer/SimpleReactionMachine.cs" Line="99" Column="14" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="tsk5.3" expanded="True">
+            <Node name="ReactionTimer" expanded="True">
+              <Node name="SimpleReactionMachine.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>this._controller.count</Value>
+          <Value>rnd.Next(from) + to</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
