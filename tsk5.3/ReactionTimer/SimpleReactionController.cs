@@ -126,8 +126,7 @@ namespace ReactionTimer
         }
         public void CoinInserted()
         {
-            this._controller.ChangeState(new DisplayState(this._controller));
-
+            this._controller.ChangeState(new ReadyState(this._controller));
         }
 
         public void GoStopPressed()
@@ -152,11 +151,11 @@ namespace ReactionTimer
         public DisplayState(SimpleReactionController controller)
         {
             this._controller = controller;
-            this._controller.gui.SetDisplay(Convert.ToString(this._controller.count));
+            this._controller.gui.SetDisplay($"{Convert.ToString(this._controller.count)} ticks has passed");
         }
         public void CoinInserted()
         {
-            
+            this._controller.ChangeState(new ReadyState(this._controller));
         }
 
         public void GoStopPressed()

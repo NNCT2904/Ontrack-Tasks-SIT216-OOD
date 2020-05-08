@@ -1,19 +1,19 @@
 ﻿<Properties StartupConfiguration="{9E355C27-73BE-4399-AB74-FB088E2D7C6B}|Default">
   <MonoDevelop.Ide.ItemProperties.ReactionTimer PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ReactionTimer/SimpleReactionMachine.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactionTimer/SimpleReactionController.cs">
     <Files>
-      <File FileName="ReactionTimer/SimpleReactionController.cs" Line="125" Column="78" />
-      <File FileName="ReactionTimer/IController.cs" Line="19" Column="21" />
-      <File FileName="ReactionTimer/IGui.cs" Line="13" Column="19" />
-      <File FileName="ReactionTimer/IRandom.cs" Line="5" Column="18" />
-      <File FileName="ReactionTimer/SimpleReactionMachine.cs" Line="99" Column="14" NotebookId="1" />
+      <File FileName="ReactionTimer/SimpleReactionController.cs" Line="129" Column="76" />
+      <File FileName="ReactionTimer/IController.cs" />
+      <File FileName="ReactionTimer/IGui.cs" />
+      <File FileName="ReactionTimer/IRandom.cs" />
+      <File FileName="ReactionTimer/SimpleReactionMachine.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="tsk5.3" expanded="True">
             <Node name="ReactionTimer" expanded="True">
-              <Node name="SimpleReactionMachine.cs" selected="True" />
+              <Node name="SimpleReactionController.cs" selected="True" />
             </Node>
           </Node>
         </State>
