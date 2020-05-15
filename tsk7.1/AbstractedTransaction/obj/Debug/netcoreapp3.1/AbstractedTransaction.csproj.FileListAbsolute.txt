@@ -1,0 +1,13 @@
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\bin\Debug\netcoreapp3.1\AbstractedTransaction.exe
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\bin\Debug\netcoreapp3.1\AbstractedTransaction.deps.json
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\bin\Debug\netcoreapp3.1\AbstractedTransaction.runtimeconfig.json
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\bin\Debug\netcoreapp3.1\AbstractedTransaction.runtimeconfig.dev.json
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\bin\Debug\netcoreapp3.1\AbstractedTransaction.dll
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\bin\Debug\netcoreapp3.1\AbstractedTransaction.pdb
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\obj\Debug\netcoreapp3.1\AbstractedTransaction.csprojAssemblyReference.cache
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\obj\Debug\netcoreapp3.1\AbstractedTransaction.csproj.CoreCompileInputs.cache
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\obj\Debug\netcoreapp3.1\AbstractedTransaction.AssemblyInfoInputs.cache
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\obj\Debug\netcoreapp3.1\AbstractedTransaction.AssemblyInfo.cs
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\obj\Debug\netcoreapp3.1\AbstractedTransaction.dll
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\obj\Debug\netcoreapp3.1\AbstractedTransaction.pdb
+D:\good things\Ontrack-Tasks\tsk7.1\AbstractedTransaction\obj\Debug\netcoreapp3.1\AbstractedTransaction.genruntimeconfig.cache
