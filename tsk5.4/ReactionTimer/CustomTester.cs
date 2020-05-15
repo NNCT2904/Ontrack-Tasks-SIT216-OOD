@@ -73,33 +73,33 @@ namespace ReactionTimer
             DoReset(22, controller, "Start your game!");
             DoInsertCoin(23, controller, "Press Go/Stop");
             DoGoStop(24, controller, "Wait a bit");
-            DoTicks(controller, 300);
+            PassTime(controller, 300);
             DoGoStop(25, controller, "Press Go/Stop");
 
             //Idle -> Ready -> Wait -> Display(Turn 1) -> Ready -> Wait -> Display(Turn 2) -> Ready -> Wait -> Display(Turn 3) (Press Go/Stop) -> Idle 
             DoReset(26, controller, "Start your game!");        //-> Idle
             DoInsertCoin(27, controller, "Press Go/Stop");      //-> Ready
             DoGoStop(28, controller, "Wait a bit");             //-> Wait
-            DoTicks(controller, 300);                           //-> Display 1
+            PassTime(controller, 300);                           //-> Display 1
             DoGoStop(29, controller, "Press Go/Stop");          //-> Ready
             DoGoStop(30, controller, "Wait a bit");             //-> Wait
-            DoTicks(controller, 300);                           //-> Display 2
+            PassTime(controller, 300);                           //-> Display 2
             DoGoStop(31, controller, "Press Go/Stop");          //-> Ready
             DoGoStop(32, controller, "Wait a bit");             //-> Wait
-            DoTicks(controller, 300);                           //-> Display 3
+            PassTime(controller, 300);                           //-> Display 3
             DoGoStop(33, controller, "Start your game!");       //-> Idle
 
             //Idle -> Ready -> Wait -> Display(Turn 1) -> Ready -> Wait -> Display(Turn 2) -> Ready -> Wait -> Display(Turn 3) (Time out) -> Idle 
             DoReset(34, controller, "Start your game!");        //-> Idle
             DoInsertCoin(35, controller, "Press Go/Stop");      //-> Ready
             DoGoStop(36, controller, "Wait a bit");             //-> Wait
-            DoTicks(controller, 300);                           //-> Display 1
+            PassTime(controller, 300);                           //-> Display 1
             DoGoStop(37, controller, "Press Go/Stop");          //-> Ready
             DoGoStop(38, controller, "Wait a bit");             //-> Wait
-            DoTicks(controller, 300);                           //-> Display 2
+            PassTime(controller, 300);                           //-> Display 2
             DoGoStop(39, controller, "Press Go/Stop");          //-> Ready
             DoGoStop(40, controller, "Wait a bit");             //-> Wait
-            DoTicks(controller, 300);                           //-> Display 3
+            PassTime(controller, 300);                           //-> Display 3
             DoTicks(41, controller, 1001, "Start your game!");  //-> Idle
 
             //Idle -> Ready (Insert Coin +3 turns) -> Wait -> Display(Turn 1) -> ... -> (Turn 6) -> ignore
@@ -107,22 +107,22 @@ namespace ReactionTimer
             DoInsertCoin(43, controller, "Press Go/Stop");      //-> Ready
             DoInsertCoin(44, controller, "Press Go/Stop");      // +3 turns!
             DoGoStop(45, controller, "Wait a bit");             //-> Wait
-            DoTicks(controller, 300);                           //-> Display 1
+            PassTime(controller, 300);                           //-> Display 1
             DoGoStop(46, controller, "Press Go/Stop");          //-> Ready
             DoGoStop(47, controller, "Wait a bit");             //-> Wait
-            DoTicks(controller, 300);                           //-> Display 2
+            PassTime(controller, 300);                           //-> Display 2
             DoGoStop(48, controller, "Press Go/Stop");          //-> Ready
             DoGoStop(49, controller, "Wait a bit");             //-> Wait
-            DoTicks(controller, 300);                           //-> Display 3
+            PassTime(controller, 300);                           //-> Display 3
             DoGoStop(50, controller, "Press Go/Stop");          //-> Ready
             DoGoStop(51, controller, "Wait a bit");             //-> Wait
-            DoTicks(controller, 300);                           //-> Display 4
+            PassTime(controller, 300);                           //-> Display 4
             DoGoStop(52, controller, "Press Go/Stop");          //-> Ready
             DoGoStop(53, controller, "Wait a bit");             //-> Wait
-            DoTicks(controller, 300);                           //-> Display 5
+            PassTime(controller, 300);                           //-> Display 5
             DoGoStop(54, controller, "Press Go/Stop");          //-> Ready
             DoGoStop(55, controller, "Wait a bit");             //-> Wait
-            DoTicks(controller, 300);                           //-> Display 6
+            PassTime(controller, 300);                           //-> Display 6
             DoTicks(56, controller, 1050, "Start your game!");  //-> Idle
 
 
@@ -180,7 +180,7 @@ namespace ReactionTimer
             }
         }
 
-        private static void DoTicks(IController controller, int n)
+        private static void PassTime(IController controller, int n)
         {
             for (int t = 0; t < n; t++)
                 controller.Tick();
