@@ -61,11 +61,13 @@ namespace ReactionTimer
             gui.Init();
             // Start the timer
             timer.Enabled = true;
-
+            CustomTester tester = new CustomTester();
+            
             // Run the menu
             bool quitePressed = false;
             while (!quitePressed)
             {
+                tester.Init();
                 ConsoleKeyInfo key = Console.ReadKey(true);
                 switch (key.Key)
                 {
